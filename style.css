@@ -1,0 +1,11 @@
+.logo{
+    max-width: 200px;
+	}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+.barlow{
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+}
