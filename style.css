@@ -1,11 +1,40 @@
-.logo{
-    max-width: 200px;
-	}
+.logo {
+  max-width: 200px;
+  margin-left: 40px;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-.barlow{
-    color: black;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 700;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
+
+.barlow {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+}
+
+.navbar-nav {
+  padding-left: 75px !important;
+  padding-right: 50px !important;
+}
+
+.nav-link {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #e26554;
+}
+
+.landscape {
+  padding-top: 100px;
+  border: black;
+  border-style: solid;
+  border-width: 1px 0px;
 }
