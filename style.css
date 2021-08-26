@@ -9,11 +9,31 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&display=swap');
 
 .barlow {
   color: black;
   font-family: "Barlow", sans-serif;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.epilogue {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 600;
+}
+
+.epilogue2 {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 300;
+}
+
+.space{
+  padding-top: 2%;
+}
+
+.space2{
+  padding-top: 1%;
 }
 
 .navbar-nav {
@@ -32,9 +52,26 @@
   color: #e26554;
 }
 
-.landscape {
-  padding-top: 100px;
-  border: black;
-  border-style: solid;
-  border-width: 1px 0px;
+.illust {
+  padding-top: 2%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-item-left {
+  flex: 50%;
+}
+
+.flex-item-right {
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
