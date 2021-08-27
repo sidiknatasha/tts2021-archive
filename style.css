@@ -1,3 +1,7 @@
+body{
+  background-color: #FEFEFE;
+}
+
 .logo {
   max-width: 200px;
   margin-left: 40px;
@@ -8,24 +12,45 @@
   padding-bottom: 20px;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&display=swap');
+
+/* Barlow Bold */
 
 .barlow {
   color: black;
   font-family: "Barlow", sans-serif;
   font-weight: 700;
-  text-decoration: none;
 }
+
+/* Barlow Regular */
+
+.barlow2 {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+/* Epilogue Semi-Bold */
 
 .epilogue {
   font-family: 'Epilogue', sans-serif;
   font-weight: 600;
 }
 
+/* Epilogue Light */
+
 .epilogue2 {
   font-family: 'Epilogue', sans-serif;
   font-weight: 300;
+}
+
+.title{
+  font-size: 1.5vw;
 }
 
 .space{
@@ -34,6 +59,10 @@
 
 .space2{
   padding-top: 1%;
+}
+
+.space3{
+  margin: 0% 1.75%;
 }
 
 .navbar-nav {
@@ -45,7 +74,7 @@
   padding-left: 50px !important;
   padding-right: 50px !important;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 .nav-link:hover {
@@ -53,7 +82,7 @@
 }
 
 .illust {
-  padding-top: 2%;
+  padding-top: 0%;
 }
 
 .flex-container {
@@ -75,3 +104,20 @@
     flex-direction: column;
   }
 }
+
+.buttona {
+  background-color: #122C5E;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 1% 0.5%;
+}
+
+.buttonb {
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 1% 0.5%;
+}
+
