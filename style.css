@@ -1,5 +1,7 @@
 body{
-  background-color: #FEFEFE;
+  height: 100%;
+  background-color: #333F9B; /* For browsers that do not support gradients */
+  background-image: linear-gradient(180deg, #333F9B, #C1C8FF);
 }
 
 .logo {
@@ -56,6 +58,10 @@ a:hover{
   font-weight: 300;
 }
 
+.white{
+  color:white;
+}
+
 .title{
   font-size: 1.5vw;
 }
@@ -92,6 +98,7 @@ a:hover{
 }
 
 .nav-link {
+  color: white;
   padding-left: 50px !important;
   padding-right: 50px !important;
   text-align: center;
@@ -158,10 +165,6 @@ a:hover{
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-.card h3{
-font-weight: 600;
-}
-
 .card img{
   position: absolute;
   top: 20px;
@@ -173,6 +176,7 @@ font-weight: 600;
   background-image: url("images/penguin.png");
   background-repeat: no-repeat;
   background-position: right;
+  background-position-x: 95%;
   background-size: 80px;
 }
 
@@ -180,7 +184,8 @@ font-weight: 600;
    background-image: url("images/ttsbyte.png");
    background-repeat: no-repeat;
    background-position: right;
-   background-size: 70px;
+   background-position-x: 95%;
+   background-size: 65px;
 }
 
 @media(max-width: 990px){
