@@ -149,6 +149,10 @@ a:hover{
   margin: 1% 0.5%;
 }
 
+.buttona:hover, .buttonb:hover{
+  color: #e26554;
+}
+
 /* Cards */
 
 .card{
