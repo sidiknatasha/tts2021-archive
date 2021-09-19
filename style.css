@@ -1,7 +1,7 @@
-body{
+body {
   height: 100%;
-  background-color: #333F9B; /* For browsers that do not support gradients */
-  background-image: linear-gradient(180deg, #333F9B, #C1C8FF);
+  background-color: #333f9b; /* For browsers that do not support gradients */
+  background-image: linear-gradient(180deg, #333f9b, #c1c8ff);
 }
 
 .logo {
@@ -14,12 +14,12 @@ body{
   padding-bottom: 20px;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&display=swap");
 
 /* Barlow Bold */
 
@@ -47,22 +47,22 @@ a:hover{
 /* Epilogue Semi-Bold */
 
 .epilogue {
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
   font-weight: 600;
 }
 
 /* Epilogue Light */
 
 .epilogue2 {
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
   font-weight: 300;
 }
 
-.white{
-  color:white;
+.white {
+  color: white;
 }
 
-.title{
+.title {
   font-size: 1.5vw;
 }
 
@@ -72,28 +72,27 @@ a:hover{
   }
 }
 
-.space{
+.space {
   padding-top: 2%;
 }
 
-.space2{
+.space2 {
   padding-top: 1%;
 }
 
-.space3{
+.space3 {
   margin: 0% 1.75%;
 }
 
-.space4{
+.space4 {
   padding-top: 3%;
 }
 
-.space5{
-	padding-bottom: 3%;
-	}
+.space5 {
+  padding-bottom: 3%;
+}
 
 .navbar-nav {
-  padding-left: 75px !important;
   padding-right: 50px !important;
 }
 
@@ -134,7 +133,7 @@ a:hover{
 }
 
 .buttona {
-  background-color: #122C5E;
+  background-color: #122c5e;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -142,41 +141,46 @@ a:hover{
 }
 
 .buttonb {
-  background-color:black;
+  background-color: black;
   border: none;
   color: white;
   padding: 10px 20px;
   margin: 1% 0.5%;
 }
 
-.buttona:hover, .buttonb:hover{
+.buttona:hover,
+.buttonb:hover {
   color: #e26554;
 }
 
 /* Cards */
 
-.card{
+.card {
   border-radius: 4px;
   background: #fff;
-  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   padding: 14px 80px 18px 36px;
   cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
-.card img{
+.card img {
   position: absolute;
   top: 20px;
   right: 15px;
   max-height: 120px;
 }
 
-.card-1, .card-3, .card-5{
+.card-1,
+.card-3,
+.card-5 {
   background-image: url("images/penguin.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -184,16 +188,45 @@ a:hover{
   background-size: 80px;
 }
 
-.card-2, .card-4, .card-6{
-   background-image: url("images/ttsbyte.png");
-   background-repeat: no-repeat;
-   background-position: right;
-   background-position-x: 95%;
-   background-size: 65px;
+.card-2,
+.card-4,
+.card-6 {
+  background-image: url("images/ttsbyte.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 95%;
+  background-size: 65px;
 }
 
-@media(max-width: 990px){
-.card{
-  margin: 20px;
+.card-7 {
+  /* mentor card */
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 95%;
+  background-size: 65px;
 }
+
+.card-8 {
+  /* workshop host card */
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 95%;
+  background-size: 65px;
+}
+
+.card-9 {
+  /* judge card */
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 95%;
+  background-size: 65px;
+}
+
+@media (max-width: 990px) {
+  .card {
+    margin: 20px;
+  }
 }
