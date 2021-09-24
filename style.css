@@ -92,8 +92,8 @@ a:hover {
   padding-bottom: 3%;
 }
 
-.navbar-nav {
-  padding-right: 50px !important;
+.navbar-collapse {
+  margin-right: 15%;
 }
 
 .nav-link {
@@ -200,29 +200,29 @@ a:hover {
 
 .card-7 {
   /* mentor card */
-  background-image: none;
+  background-image: url("images/mentorpenguin.png");
   background-repeat: no-repeat;
   background-position: right;
   background-position-x: 95%;
-  background-size: 65px;
+  background-size: 80px;
 }
 
 .card-8 {
   /* workshop host card */
-  background-image: none;
+  background-image: url("images/bytemic.png");
   background-repeat: no-repeat;
   background-position: right;
   background-position-x: 95%;
-  background-size: 65px;
+  background-size: 80px;
 }
 
 .card-9 {
   /* judge card */
-  background-image: none;
+  background-image: url("images/penguinjudge.png");
   background-repeat: no-repeat;
   background-position: right;
   background-position-x: 95%;
-  background-size: 65px;
+  background-size: 80px;
 }
 
 @media (max-width: 990px) {
