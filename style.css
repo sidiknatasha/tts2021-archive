@@ -12,7 +12,6 @@ body {
 .navbar {
   padding-top: 20px;
   padding-bottom: 20px;
-  overflow: hidden;
 }
 
 a:hover {
@@ -114,32 +113,29 @@ a:hover {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-.dropdown .dropbtn {
-  border: none;
-  outline: none;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
+.navbar:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.navbar ul {
+  list-style: none;
   margin: 0;
 }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+.navbar > ul > li {
+  float: left;
+  position: relative;
 }
-
-.dropdown-content a {
-  float: none;
-  padding: 12px 16px;
+.navbar ul li a {
   text-decoration: none;
+  color: #e26554;
+  padding: 15px 20px;
   display: block;
-  text-align: left;
 }
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 .illust {
   padding-top: 0%;
 }
