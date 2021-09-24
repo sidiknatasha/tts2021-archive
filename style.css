@@ -12,6 +12,7 @@ body {
 .navbar {
   padding-top: 20px;
   padding-bottom: 20px;
+  overflow: hidden;
 }
 
 a:hover {
@@ -98,14 +99,45 @@ a:hover {
 
 .nav-link {
   color: white;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
   text-align: center;
   font-size: 1.5vw;
 }
 
 .nav-link:hover {
   color: #e26554;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 .illust {
