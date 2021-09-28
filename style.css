@@ -264,15 +264,29 @@ a:hover {
   top: 200px;
   }
   .slider-main{
-  margin-top: 220px;
+  margin-top: 35px;
+  margin-left: 55px;
   }
   .carousel-inner{
-  width: 70%;
+  width:75%;
   }
-  .carousel-inner .carousel-item h3{
-  display: inline-block;
-  opacity: 0.5;
-  }
+ 
   .carousel-inner .carousel-item p{
-  font-size: 17px;
+  font-size: 15px;
+  }
+
+  .carouselT{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+    background-size: 80px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+    transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+      0.3s box-shadow,
+      0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
   }
