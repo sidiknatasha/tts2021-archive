@@ -183,8 +183,66 @@
         </div>
 
         <div id="faq" class="flex-container">
-          <h3 class="epilogue space4 white">Tracks</h3>
+          <h3 class="epilogue space4 white">Tracks / Challenges</h3>
         </div>
+
+        <!-- 
+          CAROUSEL CODE
+             NOTE: This is not the final code, as you can see, I still need to have
+             the carousel working. Please feel free to change the code or suggest
+             what other ways we can implement a carousel in bootstrap.
+        -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 offset-md-1 col-12 slider-main">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner text-white m-auto">
+                    <div class="carousel-item active">
+                      <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 font-weight-bold">Best Beginner Hack</h3><br>
+                      <p class="text-justify">
+                        Simply beginning is one of the hardest barriers to overcome. 
+                        We are awarding the hack that demonstrates the most growth in relation to 
+                        the hackers' knowledge coming into TechTogether Seattle. We are looking 
+                        for reflection in the hacker’s submission and how you overcame these challenges.
+                      </p>
+                    </div>  
+                    <div class="carousel-item">
+                      <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 font-weight-bold">Best Meme-Worthy Hack</h3><br>
+                      <p class="text-justify">
+                        It’s totally okay to let loose once in a while. 
+                        We want to recognize the hacker who created the most wacky hack.
+                        The more roundabout and out-right silly – the better.
+                      </p>
+                    </div>
+                    <div class="carousel-item">
+                      <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 font-weight-bold">Inclusive Hack</h3><br>
+                      <p class="text-justify">
+                        Learning to Code should not be limited by gender, race, sexuality, or 
+                        nationality.  Build a solution that creates greater access to computer science
+                        for students around the globe, especially gender-marginalized people and 
+                        those from marginalized communities.
+                      </p>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+              </div>
+            </div>
+          </div>
+       </div>
+       <br><br>
 
         <div id="faq" class="flex-container">
           <h3 class="epilogue space4 white">FAQ</h3>
