@@ -105,6 +105,7 @@ a:hover {
 .nav-link:hover {
   color: #e26554;
 }
+
 .navbar a {
   float: left;
   font-size: 16px;
@@ -113,19 +114,23 @@ a:hover {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 .navbar:after {
   content: "";
   clear: both;
   display: block;
 }
+
 .navbar ul {
   list-style: none;
   margin: 0;
 }
+
 .navbar > ul > li {
   float: left;
   position: relative;
 }
+
 .navbar ul li a {
   text-decoration: none;
   color: #e26554;
@@ -133,9 +138,16 @@ a:hover {
   display: block;
 }
 
+@media (max-width: 800px) {
+  .main{
+    font-size: 3vw;;
+  }
+}
+
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
 .illust {
   padding-top: 0%;
 }

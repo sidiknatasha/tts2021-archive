@@ -37,9 +37,9 @@
 
     <nav class="navbar navbar-expand-md">
 
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"> 
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
    
-            <i class="fas fa-bars black"> </i>
+          <span class="navbar-toggler-icon"><i class="fas fa-bars black"> </i></span>
    
         </button>
    
@@ -49,30 +49,25 @@
          </a>
      
         <!--Links-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-              <!--dropdown for about section-->
-              <li class ="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <h4 class="nav-item nav-link active main barlow">About </h4></a>
-                <div class="dropdown-menu" id="dropdownContent" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item barlow white" href="#get-involved">Get Involved</a>
-                  <a class="dropdown-item barlow white" href="#speakers">Keynote Speakers</a>
-                </div>
-              </li>
-              <li class="nav-item"><a href="#schedule"><h4 class="nav-link active main barlow">Schedule</h4></a></li>
-              <li class="nav-item"><a href="#tracks"><h4 class="nav-link active main barlow">Tracks</h4></a></li>
-              <li class="nav-item"><a href="#faq"><h4 class ="nav-link active main barlow">FAQ</h4></a></li>
-              <li class="nav-item"><a href="#sponsors"><h4 class="nav-link active main barlow">Sponsors</h4></a></li>
-              <li class="nav-item"><a href="#contact"><h4 class="nav-link active main barlow">Contact</h4></a></li> 
+        <div class="collapse navbar-collapse space6" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+              <li class="nav-item"><a class="nav-link" href="#about"><h4 class="nav-link main barlow">Why Join</h4></a></li>
+              <li class="nav-item"><a class="nav-link" href="#schedule"><h4 class="nav-link main barlow">Schedule</h4></a></li>
+              <li class="nav-item"><a class="nav-link" href="#get-involved"><h4 class="nav-link main barlow">Get Involved</h4></a></li>
+              <li class="nav-item"><a class="nav-link" href="#tracks"><h4 class="nav-link main barlow">Tracks</h4></a></li>
+              <li class="nav-item"><a class="nav-link" href="#faq"><h4 class ="nav-link main barlow">FAQ</h4></a></li>
+              <li class="nav-item"><a class="nav-link" href="#sponsors"><h4 class="nav-link main barlow">Sponsors</h4></a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact"><h4 class="nav-link main barlow">Contact</h4></a></li>
           </ul>
         </div>   
     </nav>
-    <!--MLH logo-->
+
+    <!--MLH logo
     <a id="mlh-trust-badge" style="display:block;max-width:125px;min-width:60px;position:absolute;right:50px;top:0;width:10%;z-index:10000" 
     href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=white" 
     target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg" 
-    alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>
+    alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>-->
+
     <!--Banner-->
         <div class="landscape">
             
@@ -85,7 +80,7 @@
             </div>
 
             <div class="flex-container space2">
-                <a class="buttona barlow title">Register</a>
+                <a class="buttona barlow title" href="https://www.eventbrite.com/e/techtogether-seattle-2021-tickets-162949306763">Register</a>
                 <a class="buttonb barlow title" href="https://techtogether.typeform.com/to/B7gH63j2?typeform-source=techtogether.io">Sponsor</a>
                 <a class="buttona barlow title" href="https://techtogether.typeform.com/to/VLfDt2FU">Interest Form</a>
             </div>
@@ -148,10 +143,6 @@
           <h3 class="epilogue space4 white">Schedule</h3>
         </div>
 
-        <div id="sponsors" class="flex-container">
-          <h3 class="epilogue space4 white">Our Sponsors</h3>
-        </div>
-
         <div id = "get-involved" class="flex-container">
           <h3 class="epilogue space4 white">Get Involved</h3>
         </div>
@@ -182,7 +173,7 @@
 
         </div>
 
-        <div id="faq" class="flex-container">
+        <div id="tracks" class="flex-container">
           <h3 class="epilogue space4 white">Tracks / Challenges</h3>
         </div>
 
@@ -201,6 +192,9 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
                   </ol>
                   <div class="carousel-inner m-auto">
                     <div class="carousel-item active">
@@ -211,6 +205,7 @@
                         in this industry and make it a more inclusive and welcoming place.
                       </p>
                     </div>  
+
                     <div class="carousel-item">
                       <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 barlow3">Best Meme-Worthy Hack</h3><br>
                       <p class="barlow2 text-white">
@@ -219,16 +214,38 @@
                         The more roundabout and out-right silly – the better.
                       </p>
                     </div>
+
                     <div class="carousel-item">
                       <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 font-weight-bold">Inclusive Hack</h3><br>
                       <p class="barlow2 text-white">
                         Learning to Code should not be limited by gender, race, sexuality, or 
-                        nationality.  Build a solution that creates greater access to computer science
-                        for students around the globe, especially gender-marginalized people and 
-                        those from marginalized communities.
+                        nationality. Build a solution that creates greater access to computer science
+                        for students around the globe, especially those from marginalized communities. 
                       </p>
                     </div>
+
+                  <div class="carousel-item">
+                    <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 font-weight-bold">Most Unconventional Hack</h3><br>
+                    <p class="text-justify">
+                      You are not bound to society's expectations! Create a hack which challenges the 
+                      way we view the world or an “unconventional hack” that can use technology to 
+                      help solve social problems in a way we have never seen before.
+                    </p>
                   </div>
+                </div>
+
+                <div class="carousel-item">
+                  <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 font-weight-bold">Best Connectivity Hack</h3><br>
+                  <p class="text-justify">
+                    The pandemic has affected many aspects of our lives and one of them is our
+                    relationships with the people around us. Create a hack that helps improve 
+                    connectivity and communication between people whether it is our loved ones 
+                    or our co-workers/peers. 
+                  </p>
+                </div>
+              </div>
+          
+
                   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
@@ -237,17 +254,34 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                   </a>
+
+            </div>
+
               </div>
             </div>
           </div>
        </div>
+
        <br><br>
 
         <div id="faq" class="flex-container">
           <h3 class="epilogue space4 white">FAQ</h3>
         </div>
 
+        <div id="sponsors" class="flex-container">
+          <h3 class="epilogue space4 white">National Sponsors</h3>
+        </div>
+
+        <div id="sponsors" class="flex-container">
+          <h3 class="epilogue space4 white">Local Sponsors</h3>
+        </div>
+
+
 
 </body>
+<!--javascript--> 
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 </html>
