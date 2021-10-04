@@ -139,8 +139,8 @@ a:hover {
 }
 
 @media (max-width: 800px) {
-  .main{
-    font-size: 3vw;;
+  .main {
+    font-size: 3vw;
   }
 }
 
@@ -272,23 +272,66 @@ a:hover {
 }
 
 /* Carousel CSS */
-.carousel-indicators{
+.carousel-indicators {
   top: 200px;
-  }
-  .slider-main{
-  margin-top: 35px;
-  margin-left: 55px;
-  }
-  .carousel-inner{
-  width:75%;
-  }
- 
-  .carousel-inner .carousel-item p{
-  font-size: 15px;
-  }
+}
+.slider-main {
+  margin-top: 220px;
+}
+.carousel-inner {
+  width: 70%;
+}
+.carousel-inner .carousel-item h3 {
+  display: inline-block;
+  opacity: 0.5;
+}
+.carousel-inner .carousel-item p {
+  font-size: 17px;
+}
 
-  .carousel-inner .carousel-item h3{
-    display: inline-block;
-    opacity: 0.8;
-  
-  }  
+.black {
+  color: black;
+}
+
+/*FAQ CSS*/
+.accordion-item {
+  margin-bottom: 1rem;
+}
+
+.accordion-link {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.answer {
+  overflow: hidden;
+  max-height: 0;
+  position: relative;
+}
+
+.fa-caret-down {
+  display: none;
+}
+
+.answer::before {
+  content: "";
+  position: absolute;
+  height: 90%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.accordion-item:target .answer {
+  max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .fa-caret-up {
+  display: none;
+}
+
+.accordion-item:target .accordion-link .fa-caret-down {
+  display: contents;
+}
