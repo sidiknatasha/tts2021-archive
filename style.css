@@ -276,7 +276,8 @@ a:hover {
   top: 200px;
 }
 .slider-main {
-  margin-top: 220px;
+  margin-top: 35px;
+  margin-left: 60px;
 }
 .carousel-inner {
   width: 70%;
