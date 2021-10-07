@@ -173,11 +173,12 @@ a:hover {
 }
 
 .buttona {
-  background-color: #122c5e;
+  background-color: #FC7361;
   border: none;
   color: white;
   padding: 10px 20px;
   margin: 1% 0.5%;
+  border-radius: 4px;
 }
 
 .buttonb {
@@ -190,7 +191,9 @@ a:hover {
 
 .buttona:hover,
 .buttonb:hover {
-  color: #e26554;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  color:white;
 }
 
 /* Cards */
