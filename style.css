@@ -339,3 +339,47 @@ a:hover {
 .accordion-item:target .accordion-link .fa-caret-down {
   display: contents;
 }
+
+/* National Sponsor */
+
+.national-sponsor{
+  padding-top: 2em;
+  padding-left: 2.5em;
+  
+}
+.card-10,
+.card-11,
+.card-12,
+.card-13,
+.card-14{
+  padding-bottom: 6.5em;
+  padding-left: 4.5em;
+  padding-right: 4.5em;
+  text-align:center;
+}
+
+
+.card-img-ms {
+  margin-top: 2em;
+  padding-left: 90em;
+  height: 50px;
+}
+.card-img-bl {
+  background-position: center;
+  margin-top: 2em;
+  height: 40px;
+}
+.card-img-co {
+  background-position: center;
+  margin-top: 2em;
+  height: 40px;
+}
+.card-img-bu {
+  margin-top: 2em;
+  height: 50px;
+}
+.card-img-sp {
+  background-position: center;
+  margin-top: 0em;
+}
+
