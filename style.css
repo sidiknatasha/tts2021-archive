@@ -172,8 +172,9 @@ a:hover {
   }
 }
 
+/*buttons*/
 .buttona {
-  background-color: #FC7361;
+  background-color: #fc7361;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -189,11 +190,31 @@ a:hover {
   margin: 1% 0.5%;
 }
 
+.buttonc {
+  background-color: #122c5e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 1% 0.5%;
+  border-radius: 4px;
+}
+
+.buttond {
+  background-color: white;
+  border: none;
+  color: #122c5e;
+  padding: 10px 20px;
+  margin: 1% 0.5%;
+  border-radius: 4px;
+}
+
 .buttona:hover,
-.buttonb:hover {
+.buttonb:hover,
+.buttonc:hover,
+.buttond:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
-  color:white;
+  color: white;
 }
 
 /* Cards */
@@ -329,7 +350,7 @@ a:hover {
 }
 
 .accordion-item:target .answer {
-  max-height: 30rem;
+  max-height: 50rem;
 }
 
 .accordion-item:target .accordion-link .fa-caret-up {
