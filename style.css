@@ -211,13 +211,17 @@ a:hover {
 
 .buttona:hover,
 .buttonb:hover,
-.buttonc:hover,
-.buttond:hover {
+.buttonc:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
   color: white;
 }
 
+.buttond:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  color: #122c5e;
+}
 /* Cards */
 
 .card {
@@ -363,22 +367,20 @@ a:hover {
 
 /* National Sponsor */
 
-.national-sponsor{
+.national-sponsor {
   padding-top: 2em;
   padding-left: 2.5em;
-  
 }
 .card-10,
 .card-11,
 .card-12,
 .card-13,
-.card-14{
+.card-14 {
   padding-bottom: 6.5em;
   padding-left: 4.5em;
   padding-right: 4.5em;
-  text-align:center;
+  text-align: center;
 }
-
 
 .card-img-ms {
   margin-top: 2em;
@@ -403,4 +405,3 @@ a:hover {
   background-position: center;
   margin-top: 0em;
 }
-
