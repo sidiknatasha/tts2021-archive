@@ -170,13 +170,6 @@ a:hover {
   background-repeat: repeat-x;
 }
 
-@media (max-width: 800px) {
-  .illust {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
 .flex-container {
   display: flex;
   flex-direction: row;
