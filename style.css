@@ -448,3 +448,11 @@ a:hover {
 }
 
 /*Local Sponsors*/
+
+/*Contact Footer*/
+
+.bigger{
+  font-size: 3vh;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
