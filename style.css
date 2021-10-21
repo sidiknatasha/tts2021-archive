@@ -182,7 +182,7 @@ a:hover {
 
 .illust {
   padding-top: 0%;
-  background-repeat: repeat-x;
+  max-width: 100%;
 }
 
 .flex-container {
