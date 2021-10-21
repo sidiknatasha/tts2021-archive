@@ -382,7 +382,7 @@ a:hover {
   position: relative;
 }
 
-.fa-caret-down {
+.fa-caret-up {
   display: none;
 }
 
@@ -398,11 +398,11 @@ a:hover {
   max-height: 50rem;
 }
 
-.accordion-item:target .accordion-link .fa-caret-up {
+.accordion-item:target .accordion-link .fa-caret-down {
   display: none;
 }
 
-.accordion-item:target .accordion-link .fa-caret-down {
+.accordion-item:target .accordion-link .fa-caret-up{
   display: contents;
 }
 
