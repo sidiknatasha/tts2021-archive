@@ -39,20 +39,20 @@
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
    
-          <span class="navbar-toggler-icon"><i class="fas fa-bars black"> </i></span>
+          <span class="navbar-toggler-icon"><i class="fas fa-bars white"> </i></span>
    
         </button>
    
         <!--TTSlogo-->
-         <a class="navbar-brand" href="https://techtogether.io/events" target="_blank">
+         <a class="navbar-brand hidemobile" href="https://techtogether.io/events" target="_blank">
             <img class="logo" src="images/ttslogo.svg">
          </a>
      
         <!--Links-->
-        <div class="collapse navbar-collapse space6" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
               <li class="nav-item"><a class="nav-link" href="#about"><h4 class="nav-link main barlow">Why Join</h4></a></li>
-          <!--<li class="nav-item"><a class="nav-link" href="#schedule"><h4 class="nav-link main barlow">Schedule</h4></a></li>-->
+              <li class="nav-item"><a class="nav-link" href="#schedule"><h4 class="nav-link main barlow">Schedule</h4></a></li>
               <li class="nav-item"><a class="nav-link" href="#get-involved"><h4 class="nav-link main barlow">Get Involved</h4></a></li>
               <li class="nav-item"><a class="nav-link" href="#tracks"><h4 class="nav-link main barlow">Tracks</h4></a></li>
               <li class="nav-item"><a class="nav-link" href="#faq"><h4 class ="nav-link main barlow">FAQs</h4></a></li>
@@ -62,7 +62,7 @@
         </div>   
     </nav>
 
-    <a id="bytebanner" style="display:block;min-width:60px;position:absolute;right:50px;top: -2px;z-index:10000" 
+    <a class="hidemobile" style="display:block;min-width:60px;position:absolute;right:50px;top: -2px;z-index:10000" 
     href="https://instagram.com/techtogetherseattle" target="_blank"><img src=images/byteiceflag.svg alt="Byte, Tech Together Mascot, wearing ice-breaking outfit for Tech Together Seattle." style="width:100%"></a>
 
     <!--MLH logo
@@ -72,10 +72,10 @@
     alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>-->
 
     <!--Banner-->
-        <div class="landscape">
+        <div class="landscape space4">
             
-            <div class="flex-container">
-                <h1 class="epilogue space white"><center>TechTogether Seattle</center></h1>
+            <div class="flex-container mobiletop">
+                <h1 class="epilogue white"><center>TechTogether Seattle</center></h1>
             </div>
 
             <div class="flex-container">
@@ -83,15 +83,13 @@
             </div>
 
             <div class="flex-container space2">
-                <a class="buttona barlow title" href="https://www.eventbrite.com/e/techtogether-seattle-2021-tickets-162949306763" target="_blank">Register to Attend</a>
-            <!--<a class="buttonb barlow title" href="https://techtogether.typeform.com/to/B7gH63j2?typeform-source=techtogether.io" target="_blank">Sponsor</a>
-                <a class="buttona barlow title" href="https://techtogether.typeform.com/to/VLfDt2FU" target="_blank">Interest Form</a>-->
+                <span class="buttona"><center><a class="barlow title white" href="https://www.eventbrite.com/e/techtogether-seattle-2021-tickets-162949306763" target="_blank">Register to Attend</a></center></span>
             </div>
 
             <img class="illust img-fluid" src="images/landscape.svg" alt="Seattle Landscape">
         </div>
 
-        <div id="about" class="flex-container">
+        <div id="about" class="flex-container space4">
           <h3 class="epilogue space6 white"><center>Why Join TechTogether Seattle?</center></h3>
         </div>
 
@@ -142,14 +140,15 @@
           </div>
         </div>
 
-        <div id="schedule" class="flex-container">
+        <div id="schedule" class="flex-container space4">
           <h3 class="epilogue space6 white"><center>Schedule</center></h3>
         </div>
 
-        <div id = "get-involved" class="flex-container">
+        <div id ="get-involved" class="flex-container space4">
           <h3 class="epilogue space6 white"><center>Get Involved</center></h3>
         </div>
-        <div id="Get-Involved" class="container space5 space6">
+        
+        <div class="container space">
           <div class="row">
             <div class="col-md-4">
               <div class="card card-7">
@@ -176,15 +175,15 @@
 
         </div>
 
-        <div id="tracks" class="flex-container">
-          <h3 class="epilogue space6 white"><center>Tracks / Challenges</center></h3>
+        <div id="tracks" class="flex-container space4">
+          <h3 class="epilogue space6 white"><center>Tracks (Challenges)</center></h3>
         </div>
 
         <!-- CAROUSEL CODE -->
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-12 slider-main">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div id="carouselExampleIndicators" class="carousel slide space4" data-ride="carousel">
                   <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -260,10 +259,10 @@
        </div>
        <br></br>
        
-        <div id="faq" class="flex-container">
+        <div id="faq" class="flex-container space4">
           <h3 class="epilogue space6 white"><center>FAQs</center></h3>
         </div>
-        <div id="FAQ" class="container space5 space">
+        <div id="FAQ" class="container space">
 
             <div class="row">
               <div class="col-sm accordion">
@@ -483,7 +482,7 @@
         <br><br>
         </div>
 
-        <div id="sponsors" class="flex-container">
+        <div id="sponsors" class="flex-container space4">
           <h3 class="epilogue space6 white"><center>National Sponsors</center></h3>
         </div>
 
@@ -541,10 +540,10 @@
 
 
 
-        <div id="sponsors" class="flex-container">
-          <h3 class="epilogue space6 white"><center>Local Sponsors</center></h3>
+        <div id="sponsors" class="flex-container space6">
+          <h3 class="epilogue white"><center>Local Sponsors</center></h3>
         </div>
-        <div class="container space6 space">
+        <div class="container space">
           <div class="card" style="background-color: #e26554;">
 
             <div class="row" style="padding-top:1rem; padding-bottom: 1rem;">
