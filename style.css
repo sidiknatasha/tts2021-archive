@@ -19,9 +19,24 @@ a:hover {
 }
 
 @media (max-width: 990px) {
-  .hidemobile {
+  .hidemobile,
+  .hidemobile-mascot {
     visibility: hidden;
   }
+}
+
+.hidemobile-mascot {
+  display:block;
+  min-width:50px;
+  position:absolute;
+  right:50px;
+  top: -2px;
+  z-index:10000;
+}
+
+.mascot{
+  height: 180px;
+  width: 100px;
 }
 
 @media (max-width: 990px) {
