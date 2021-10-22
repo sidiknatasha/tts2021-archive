@@ -280,7 +280,7 @@ a:hover {
 }
 /* Cards */
 
-.card {
+.card, .card-local {
   border-radius: 4px;
   background: #fff;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
@@ -350,7 +350,7 @@ a:hover {
 }
 
 @media (max-width: 990px) {
-  .card {
+  .card, .card-local{
     margin: 20px;
   }
 }
