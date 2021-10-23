@@ -270,7 +270,11 @@ a:hover {
 .buttonc:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
-  color: white;
+  color:#122c5e;
+}
+
+.buttona a:hover{
+  color:#122c5e;
 }
 
 .buttond:hover {
@@ -378,6 +382,89 @@ a:hover {
   color: black;
 }
 
+/* Schedule */
+#add-to-calendar-icon {
+  filter: invert(0);
+  max-width: 80px;
+}
+#add-to-calendar-icon:hover {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.platform {
+  /* padding-top: inherit; */
+  position: relative;
+  bottom: -128px;
+  /* opacity: .75; */
+}
+
+#scheduleBoard {
+  font-family: "Epilogue", sans-serif;
+  background: white;
+  border-radius: 6px;
+  border: 10px solid rgba(34, 36, 37, 1);
+  /* -webkit-box-shadow:inset 0px 11px 0px 10px rgba(34,36,37,1);
+  -moz-box-shadow:inset 0px 11px 0px 10px rgba(34,36,37,1);
+  box-shadow:inset 0px 11px 0px 10px rgba(34,36,37,1); */
+  /* top: -30px; */
+  position: relative;
+  /* opacity: 0.85; */
+  /* padding: 20px; */
+  width: 80%;
+  margin: auto;
+  /* height: calc(100vh - 16px); */
+}
+
+.schedulebg {
+  position: relative;
+  height: 200px;
+  width: 65%;
+  /* min-height: 300px; */
+}
+
+.sched-nav {
+  background: rgba(34, 36, 37, 1);
+  margin: -2px;
+  padding: 10px;
+  display: flow-root;
+  /* position: relative; */
+  /* top: 7.3em; */
+  /*
+  width: 100%;
+  left: 0em; */
+}
+
+.sched-btn {
+  border-width: medium;
+ /* border-color: rgba(68,70,67, 0.5); */
+  background-color: rgba(255,255,255);
+  margin: 0.25vw;
+  color: var(--bs-body-bg);
+}
+
+.sched-btn:hover {
+  background-color: #c4c4c4;
+}
+
+.event {
+  max-width: 100%;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #fff;
+/* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+}
+
+.event h4 {
+  text-align: left;
+  padding-left: 4em;
+  padding-bottom: 1em;
+  line-height: 1;
+  position: relative;
+  top: 0.5em;
+}
+
 /*FAQ CSS*/
 .accordion-item {
   margin-bottom: 1rem;
@@ -471,3 +558,28 @@ a:hover {
   margin-left: 0.5vw;
   margin-right: 0.5vw;
 }
+
+/*.scrollToTopBtn {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 48px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: 100;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all .5s ease
+}
+
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}*/
+
