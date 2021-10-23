@@ -18,23 +18,27 @@ a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 990px) {
-  .hidemobile,
+@media (max-width: 1400px) {
   .hidemobile-mascot {
+    visibility: hidden;
+  }
+}
+@media (max-width: 990px) {
+  .hidemobile {
     visibility: hidden;
   }
 }
 
 .hidemobile-mascot {
-  display:block;
-  min-width:50px;
-  position:absolute;
-  right:50px;
+  display: block;
+  min-width: 50px;
+  position: absolute;
+  right: 50px;
   top: -2px;
-  z-index:10000;
+  z-index: 10000;
 }
 
-.mascot{
+.mascot {
   height: 180px;
   width: 100px;
 }
@@ -44,7 +48,6 @@ a:hover {
     margin-top: -10vh;
   }
 }
-
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&display=swap");
@@ -144,34 +147,11 @@ a:hover {
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 1.5vw;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-.navbar:after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0;
-}
-
-.navbar > ul > li {
-  float: left;
-  position: relative;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: #e26554;
-  padding: 15px 20px;
-  display: block;
 }
 
 @media (max-width: 990px) {
@@ -270,11 +250,11 @@ a:hover {
 .buttonc:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
-  color:#122c5e;
+  color: #122c5e;
 }
 
-.buttona a:hover{
-  color:#122c5e;
+.buttona a:hover {
+  color: #122c5e;
 }
 
 .buttond:hover {
@@ -284,7 +264,8 @@ a:hover {
 }
 /* Cards */
 
-.card, .card-local {
+.card,
+.card-local {
   border-radius: 4px;
   background: #fff;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
@@ -354,7 +335,8 @@ a:hover {
 }
 
 @media (max-width: 990px) {
-  .card, .card-local{
+  .card,
+  .card-local {
     margin: 20px;
   }
 }
@@ -437,8 +419,8 @@ a:hover {
 
 .sched-btn {
   border-width: medium;
- /* border-color: rgba(68,70,67, 0.5); */
-  background-color: rgba(255,255,255);
+  /* border-color: rgba(68,70,67, 0.5); */
+  background-color: rgba(255, 255, 255);
   margin: 0.25vw;
   color: var(--bs-body-bg);
 }
@@ -452,7 +434,7 @@ a:hover {
   padding: 20px;
   margin: 30px auto;
   background-color: #fff;
-/* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
 }
 
@@ -504,7 +486,7 @@ a:hover {
   display: none;
 }
 
-.accordion-item:target .accordion-link .fa-caret-up{
+.accordion-item:target .accordion-link .fa-caret-up {
   display: contents;
 }
 
@@ -553,7 +535,7 @@ a:hover {
 
 /*Contact Footer*/
 
-.bigger{
+.bigger {
   font-size: 3vh;
   margin-left: 0.5vw;
   margin-right: 0.5vw;
@@ -582,4 +564,3 @@ a:hover {
   opacity: 1;
   transform: translateY(0);
 }*/
-
