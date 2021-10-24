@@ -20,7 +20,7 @@ a:hover {
 
 @media (max-width: 990px) {
   .nav-link {
-    font-size: 5vw;
+    font-size: 20px !important;
   }
 }
 
@@ -51,7 +51,7 @@ a:hover {
 
 @media (max-width: 990px) {
   .mobiletop {
-    margin-top: 5vh;
+    margin-top: 0.5vh;
   }
 }
 
