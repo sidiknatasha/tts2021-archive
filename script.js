@@ -4,7 +4,7 @@ $('#sponsor-carousel').carousel({
     cycle: true
   });
 
-/*Back to Top*/
+/*Back to Top
 var target = document.querySelector("footer");
 
 var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
@@ -31,5 +31,5 @@ function scrollToTop() {
 scrollToTopBtn.addEventListener("click", scrollToTop);
 
 let observer = new IntersectionObserver(callback);
-observer.observe(target);
+observer.observe(target);*/
   
