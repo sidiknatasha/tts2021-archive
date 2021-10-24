@@ -13,7 +13,11 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+@media (max-width: 990) {
+  .nav-link {
+    font-size: 0.5vw;
+  }
+}
 a:hover {
   text-decoration: none;
 }
@@ -150,7 +154,7 @@ a:hover {
   font-size: 1.5vw;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.5vh 2vh;
   text-decoration: none;
 }
 
@@ -167,12 +171,6 @@ a:hover {
 
 .dropdown:hover .dropdown-menu {
   display: block;
-}
-
-@media (max-width: 990px) {
-  .nav-link {
-    font-size: 1.5rem;
-  }
 }
 
 .illust {
