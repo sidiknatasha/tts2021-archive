@@ -13,13 +13,15 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-@media (max-width: 990) {
-  .nav-link {
-    font-size: 1vh;
-  }
-}
+
 a:hover {
   text-decoration: none;
+}
+
+@media (max-width: 990) {
+  .nav-link {
+    font-size: 5vw;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -49,7 +51,7 @@ a:hover {
 
 @media (max-width: 990px) {
   .mobiletop {
-    margin-top: -5vh;
+    margin-top: -0.5vh;
   }
 }
 
@@ -151,7 +153,6 @@ a:hover {
 
 .navbar a {
   float: left;
-  font-size: 1.5vw;
   color: white;
   text-align: center;
   padding: 0.5vh 2vh;
