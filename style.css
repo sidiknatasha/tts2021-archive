@@ -229,9 +229,11 @@ a:hover {
 @media (max-width: 990px) {
   .buttona {
     background-color: #fc7361;
+    max-width: 60%;
     border: none;
     padding: 1vh 2vw;
     margin: 3% 0.5%;
+    margin:auto;
     border-radius: 4px;
   }
 }
