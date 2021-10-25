@@ -50,8 +50,15 @@ a:hover {
 }
 
 @media (max-width: 990px) {
+  .navbar-nav {
+    margin-top: -2vh;
+    margin-bottom: 4vh;
+  }
+}
+
+@media (max-width: 990px) {
   .mobiletop {
-    margin-top: 0.5vh;
+    margin-top: -6vh;
   }
 }
 
