@@ -712,7 +712,7 @@ a:hover {
 /* National Sponsor */
 .national-sponsor {
   padding-top: 2em;
-  padding-left: 2.5em;
+  padding-left: 1.5em;
 }
 .card-10,
 .card-11,
@@ -726,27 +726,27 @@ a:hover {
 }
 
 .card-img-ms {
-  margin-top: 2em;
-  padding-left: 90em;
-  height: 50px;
+  height: 300px;
+  width: 120px;
+  margin-top: 20%;
 }
 .card-img-bl {
-  background-position: center;
   margin-top: 2em;
   height: 40px;
 }
 .card-img-co {
-  background-position: center;
-  margin-top: 2em;
-  height: 40px;
+  margin-top: 1.9em;
+  height: 39px;
+  margin-right: 5px;
 }
 .card-img-bu {
   margin-top: 2em;
   height: 50px;
+  width: 110px;
 }
 .card-img-sp {
-  background-position: center;
-  margin-top: 0em;
+ height: 45px;
+ width: 120px;
 }
 
 /*Local Sponsors*/
