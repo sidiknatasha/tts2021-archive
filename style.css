@@ -245,15 +245,16 @@ a:hover {
 }
 
 .buttona:hover,
-.buttonb:hover,
-.buttonc:hover {
+.buttonb:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
   color: #122c5e;
 }
 
-.buttona a:hover {
-  color: #122c5e;
+.buttonc:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  color: white;
 }
 
 .buttond:hover {
@@ -284,6 +285,46 @@ a:hover {
   top: 20px;
   right: 15px;
   max-height: 120px;
+}
+
+@media (max-width: 990px) {
+  .cards {
+    max-width: fit-content;
+    padding: 10px 95px 12px 26px;
+  }
+  .card h4 {
+    font-size: 20px !important;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .card .barlow3 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card h4 {
+    font-size: 15px !important;
+  }
+  .card p {
+    font-size: 12px;
+  }
+  .card .barlow3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 150px) {
+  .card h4 {
+    font-size: 14px !important;
+  }
+  .card p {
+    font-size: 10px;
+  }
+  .card .barlow3 {
+    font-size: 12px;
+  }
 }
 
 .card-1,
@@ -343,10 +384,10 @@ a:hover {
 /* Carousel CSS */
 #tracks {
   padding: 8rem 0;
-  background-color:rgba(53, 58, 63, 60%);
+  background-color: rgba(53, 58, 63, 60%);
 }
 
-.carousel-img{
+.carousel-img {
   width: 200px;
   height: 200px;
 }
@@ -393,17 +434,21 @@ a:hover {
   }
 }
 
-.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
   display: block;
 }
 
 /* rtl:begin:ignore */
 
-.carousel-item-next:not(.carousel-item-start), .active.carousel-item-end {
+.carousel-item-next:not(.carousel-item-start),
+.active.carousel-item-end {
   transform: translateX(100%);
 }
 
-.carousel-item-prev:not(.carousel-item-end), .active.carousel-item-start {
+.carousel-item-prev:not(.carousel-item-end),
+.active.carousel-item-start {
   transform: translateX(-100%);
 }
 
@@ -415,24 +460,29 @@ a:hover {
   transform: none;
 }
 
-.carousel-fade .carousel-item.active, .carousel-fade .carousel-item-next.carousel-item-start, .carousel-fade .carousel-item-prev.carousel-item-end {
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-start,
+.carousel-fade .carousel-item-prev.carousel-item-end {
   z-index: 1;
   opacity: 1;
 }
 
-.carousel-fade .active.carousel-item-start, .carousel-fade .active.carousel-item-end {
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
   z-index: 0;
   opacity: 0;
   transition: opacity 0s 0.6s;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .carousel-fade .active.carousel-item-start, .carousel-fade .active.carousel-item-end {
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
     transition: none;
   }
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev,
+.carousel-control-next {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -451,12 +501,16 @@ a:hover {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .carousel-control-prev, .carousel-control-next {
+  .carousel-control-prev,
+  .carousel-control-next {
     transition: none;
   }
 }
 
-.carousel-control-prev:hover, .carousel-control-prev:focus, .carousel-control-next:hover, .carousel-control-next:focus {
+.carousel-control-prev:hover,
+.carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
   color: #fff;
   text-decoration: none;
   outline: 0;
@@ -471,7 +525,8 @@ a:hover {
   right: 0;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   display: inline-block;
   width: 2rem;
   height: 2rem;
@@ -552,7 +607,8 @@ a:hover {
   text-align: center;
 }
 
-.carousel-dark .carousel-control-prev-icon, .carousel-dark .carousel-control-next-icon {
+.carousel-dark .carousel-control-prev-icon,
+.carousel-dark .carousel-control-next-icon {
   filter: invert(1) grayscale(100);
 }
 
