@@ -345,12 +345,10 @@ a:hover {
   padding: 8rem 0;
   background-color:rgba(53, 58, 63, 60%);
 }
-
 .carousel-img{
-  width: 200px;
   height: 200px;
+  width: 200px;
 }
-
 .carousel {
   position: relative;
 }
@@ -712,7 +710,6 @@ a:hover {
 }
 
 /* National Sponsor */
-
 .national-sponsor {
   padding-top: 2em;
   padding-left: 2.5em;
