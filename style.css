@@ -831,7 +831,7 @@ a:hover {
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
-  .card-img-ms {
+ /* .card-img-ms {
     height: 100px;
     width: 200px;
     margin-left: 100%;
@@ -859,7 +859,7 @@ a:hover {
   .card-img-sp {
     height: 45px;
     width: 120px;
-  }
+  } */
 }
 
 .national-sponsor {
@@ -878,6 +878,7 @@ a:hover {
   text-align: center;
 }
 
+/* 
 .card-img-ms {
   height: 300px;
   width: 120px;
@@ -900,7 +901,7 @@ a:hover {
 .card-img-sp {
   height: 45px;
   width: 120px;
-}
+}*/
 
 /*Local Sponsors*/
 
