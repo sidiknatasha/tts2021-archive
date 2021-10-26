@@ -89,14 +89,14 @@ a:hover {
 }
 
 .links {
-  color:#333f9b;
+  color: #333f9b;
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   text-decoration: none;
 }
 
-.links:hover{
-  color:#e26554
+.links:hover {
+  color: #e26554;
 }
 
 /* Epilogue Semi-Bold */
@@ -233,7 +233,7 @@ a:hover {
     border: none;
     padding: 1vh 2vw;
     margin: 3% 0.5%;
-    margin:auto;
+    margin: auto;
     border-radius: 4px;
   }
 }
@@ -277,6 +277,18 @@ a:hover {
   color: white;
 }
 
+@media (max-width: 990px) {
+  .local-title {
+    font-size: 25px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .local-title {
+    padding-top: 20px;
+  }
+}
+
 .buttond:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
@@ -295,6 +307,11 @@ a:hover {
   padding: 14px 80px 18px 36px;
 }
 
+@media (max-width: 990px) {
+  .card-local {
+    padding: 12px 30px 12px 30px;
+  }
+}
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
@@ -321,6 +338,9 @@ a:hover {
   .card .barlow3 {
     font-size: 15px;
   }
+  .card .links {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -333,6 +353,9 @@ a:hover {
   .card .barlow3 {
     font-size: 14px;
   }
+  .card .links {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 150px) {
@@ -344,6 +367,9 @@ a:hover {
   }
   .card .barlow3 {
     font-size: 12px;
+  }
+  .card .links {
+    font-size: 14px;
   }
 }
 
@@ -795,16 +821,16 @@ a:hover {
     padding-left: 0em;
   }
 
-.card-10,
-.card-11,
-.card-12,
-.card-13,
-.card-14,
-.card-15 {
-  padding-bottom: 0.5em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
+  .card-10,
+  .card-11,
+  .card-12,
+  .card-13,
+  .card-14,
+  .card-15 {
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
   .card-img-ms {
     height: 100px;
     width: 200px;
@@ -831,10 +857,9 @@ a:hover {
     margin-right: 80%;
   }
   .card-img-sp {
-   height: 45px;
-   width: 120px;
+    height: 45px;
+    width: 120px;
   }
-  
 }
 
 .national-sponsor {
@@ -873,8 +898,8 @@ a:hover {
   width: 110px;
 }
 .card-img-sp {
- height: 45px;
- width: 120px;
+  height: 45px;
+  width: 120px;
 }
 
 /*Local Sponsors*/
