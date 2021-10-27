@@ -839,6 +839,14 @@ a:hover {
     padding-left: 0em;
     margin:auto
   }
+  .card-10,
+  .card-11,
+  .card-12,
+  .card-13,
+  .card-14,
+  .card-15{
+    width: 15rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -853,7 +861,7 @@ a:hover {
   .card-img-bu,
   .card-img-sp,
   .card-img-rb {
-    margin-right: 30%;
+  margin-right: 15%;
   }
 }
 
