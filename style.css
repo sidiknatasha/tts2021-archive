@@ -779,8 +779,10 @@ a:hover {
   text-decoration: none;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+}
+
+.accordion-link h4 {
+  text-align: left;
 }
 
 .answer {
@@ -806,11 +808,11 @@ a:hover {
 }
 
 .accordion-item:target .accordion-link .fa-caret-down {
-  display: none;
+  display: contents;
 }
 
 .accordion-item:target .accordion-link .fa-caret-up {
-  display: contents;
+  display: none;
 }
 
 /* National Sponsor */
@@ -832,19 +834,18 @@ a:hover {
   text-align: center;
 }
 
-
 @media (max-width: 990px) {
   .national-sponsor {
     padding-top: 0em;
     padding-left: 0em;
-    margin:auto
+    margin: auto;
   }
   .card-10,
   .card-11,
   .card-12,
   .card-13,
   .card-14,
-  .card-15{
+  .card-15 {
     width: 15rem;
     margin-left: 10mm;
   }
@@ -853,14 +854,14 @@ a:hover {
   .national-sponsor {
     padding-top: 0em;
     padding-left: 0em;
-    margin:auto
+    margin: auto;
   }
   .card-10,
   .card-11,
   .card-12,
   .card-13,
   .card-14,
-  .card-15{
+  .card-15 {
     width: 15rem;
     margin-left: 15mm;
   }
@@ -869,14 +870,14 @@ a:hover {
   .national-sponsor {
     padding-top: 0em;
     padding-left: 0em;
-    margin:auto
+    margin: auto;
   }
   .card-10,
   .card-11,
   .card-12,
   .card-13,
   .card-14,
-  .card-15{
+  .card-15 {
     width: 15rem;
     margin-left: 10mm;
   }
@@ -886,19 +887,18 @@ a:hover {
   .national-sponsor {
     width: inherit;
     height: inherit;
-    margin:auto
+    margin: auto;
   }
-  
+
   .card-img-ms,
-  .card-img-bl, 
+  .card-img-bl,
   .card-img-co,
   .card-img-bu,
   .card-img-sp,
   .card-img-rb {
-  margin-right: 15%;
+    margin-right: 15%;
   }
 }
-
 
 /* 
 .card-img-ms {
