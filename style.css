@@ -849,6 +849,38 @@ a:hover {
     margin-left: 10mm;
   }
 }
+@media (max-width: 736px) {
+  .national-sponsor {
+    padding-top: 0em;
+    padding-left: 0em;
+    margin:auto
+  }
+  .card-10,
+  .card-11,
+  .card-12,
+  .card-13,
+  .card-14,
+  .card-15{
+    width: 15rem;
+    margin-left: 15mm;
+  }
+}
+@media (max-width: 667px) {
+  .national-sponsor {
+    padding-top: 0em;
+    padding-left: 0em;
+    margin:auto
+  }
+  .card-10,
+  .card-11,
+  .card-12,
+  .card-13,
+  .card-14,
+  .card-15{
+    width: 15rem;
+    margin-left: 10mm;
+  }
+}
 
 @media (max-width: 500px) {
   .national-sponsor {
