@@ -781,50 +781,46 @@ a:hover {
 /* National Sponsor */
 
 @media (max-width: 990px) {
-  .national-sponsor {
-    padding-top: 0em;
-    padding-left: 0em;
-  }
 
 .card-10,
 .card-11,
 .card-12,
 .card-13,
 .card-14,
-.card-15 {
-  padding-bottom: 0.5em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+.card-15
+{
+  width: 17rem;
+  display: flex;
+  justify-content: center;
 }
   .card-img-ms {
-    height: 100px;
-    width: 200px;
-    margin-left: 100%;
-    margin-right: 15%;
-    margin-top: 80%;
+    margin-right: 20%;
+    margin-bottom: 20%;
   }
   .card-img-bl {
-    height: 200px;
-    width: 180px;
-    margin-left: 100%;
     margin-right: 15%;
   }
   .card-img-co {
-    height: 100px;
-    width: 100px;
-    margin-left: 30%;
-    margin-right: 40%;
+    display: table-cell;
+    height: 180px;
+    text-align: center;
+    width: 180px;
+    vertical-align: middle;
   }
   .card-img-bu {
-    height: 40px;
-    width: 130px;
-    margin-left: 30%;
-    margin-right: 80%;
+    margin: 30px auto 10px;
+    display: block;
   }
   .card-img-sp {
-   height: 45px;
-   width: 120px;
+    margin-right: 10mm;
   }
+  .card-img-rb {
+    display: table-cell;
+    height: 180px;
+    text-align: center;
+    width: 180px;
+    vertical-align: middle;
+   }
   
 }
 
