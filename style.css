@@ -846,6 +846,7 @@ a:hover {
   .card-14,
   .card-15{
     width: 15rem;
+    margin-left: 10mm;
   }
 }
 
@@ -855,6 +856,7 @@ a:hover {
     height: inherit;
     margin:auto
   }
+  
   .card-img-ms,
   .card-img-bl, 
   .card-img-co,
