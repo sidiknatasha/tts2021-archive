@@ -50,8 +50,15 @@ a:hover {
 }
 
 @media (max-width: 990px) {
+  .navbar-nav {
+    margin-top: -2vh;
+    margin-bottom: 4vh;
+  }
+}
+
+@media (max-width: 990px) {
   .mobiletop {
-    margin-top: 0.5vh;
+    margin-top: -6vh;
   }
 }
 
@@ -82,14 +89,14 @@ a:hover {
 }
 
 .links {
-  color:#333f9b;
+  color: #333f9b;
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   text-decoration: none;
 }
 
-.links:hover{
-  color:#e26554
+.links:hover {
+  color: #e26554;
 }
 
 /* Epilogue Semi-Bold */
@@ -222,9 +229,11 @@ a:hover {
 @media (max-width: 990px) {
   .buttona {
     background-color: #fc7361;
+    max-width: 60%;
     border: none;
     padding: 1vh 2vw;
     margin: 3% 0.5%;
+    margin: auto;
     border-radius: 4px;
   }
 }
@@ -268,6 +277,18 @@ a:hover {
   color: white;
 }
 
+@media (max-width: 990px) {
+  .local-title {
+    font-size: 25px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .local-title {
+    padding-top: 20px;
+  }
+}
+
 .buttond:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
@@ -286,6 +307,11 @@ a:hover {
   padding: 14px 80px 18px 36px;
 }
 
+@media (max-width: 990px) {
+  .card-local {
+    padding: 12px 30px 12px 30px;
+  }
+}
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
@@ -312,6 +338,9 @@ a:hover {
   .card .barlow3 {
     font-size: 15px;
   }
+  .card .links {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -324,6 +353,9 @@ a:hover {
   .card .barlow3 {
     font-size: 14px;
   }
+  .card .links {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 150px) {
@@ -335,6 +367,9 @@ a:hover {
   }
   .card .barlow3 {
     font-size: 12px;
+  }
+  .card .links {
+    font-size: 14px;
   }
 }
 
@@ -780,54 +815,11 @@ a:hover {
 
 /* National Sponsor */
 
-@media (max-width: 990px) {
-
-.card-10,
-.card-11,
-.card-12,
-.card-13,
-.card-14,
-.card-15
-{
-  width: 17rem;
-  display: flex;
-  justify-content: center;
-}
-  .card-img-ms {
-    margin-right: 20%;
-    margin-bottom: 20%;
-  }
-  .card-img-bl {
-    margin-right: 15%;
-  }
-  .card-img-co {
-    display: table-cell;
-    height: 180px;
-    text-align: center;
-    width: 180px;
-    vertical-align: middle;
-  }
-  .card-img-bu {
-    margin: 30px auto 10px;
-    display: block;
-  }
-  .card-img-sp {
-    margin-right: 10mm;
-  }
-  .card-img-rb {
-    display: table-cell;
-    height: 180px;
-    text-align: center;
-    width: 180px;
-    vertical-align: middle;
-   }
-  
-}
-
 .national-sponsor {
   padding-top: 1em;
   padding-left: 0em;
 }
+
 .card-10,
 .card-11,
 .card-12,
@@ -835,11 +827,38 @@ a:hover {
 .card-14,
 .card-15 {
   padding-bottom: 6.5em;
-  padding-left: 1.5em;
-  padding-right: 4.5em;
+  /*padding-left: 1.5em;
+  padding-right: 4.5em;*/
   text-align: center;
 }
 
+
+@media (max-width: 990px) {
+  .national-sponsor {
+    padding-top: 0em;
+    padding-left: 0em;
+    margin:auto
+  }
+}
+
+@media (max-width: 500px) {
+  .national-sponsor {
+    width: inherit;
+    height: inherit;
+    margin:auto
+  }
+  .card-img-ms,
+  .card-img-bl, 
+  .card-img-co,
+  .card-img-bu,
+  .card-img-sp,
+  .card-img-rb {
+    margin-right: 30%;
+  }
+}
+
+
+/* 
 .card-img-ms {
   height: 300px;
   width: 120px;
@@ -860,9 +879,9 @@ a:hover {
   width: 110px;
 }
 .card-img-sp {
- height: 45px;
- width: 120px;
-}
+  height: 45px;
+  width: 120px;
+}*/
 
 /*Local Sponsors*/
 
