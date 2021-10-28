@@ -335,16 +335,19 @@ document.getElementById('4').onclick = () => {fillData(day4)}
 
 document.getElementById('day').innerHTML = `
         ${day1.map(sched_template).join('')}
-        <h5 style="font-size: 0.9rem;">Check back soon for updates.
+        <h4 style="font-size: 0.9rem;">Check back soon for updates.
 			<br>Please note that all times are in Pacific Time (GMT+8).
-			<br>Click on an day to see the day's schedule.
-		</h5>
+			<br>Click on any day to see the day's schedule.
+		</h4>
     `
 
 function fillData(data){
     document.getElementById('day').innerHTML = `
         ${data.map(sched_template).join('')}
-        <h5 style="font-size: 0.9rem;">Check back soon for updates.</h5>
+        <h4 style="font-size: 0.9rem;">Check back soon for updates.
+		<br>Please note that all times are in Pacific Time (GMT+8).
+			<br>Click on any day to see the day's schedule.</h4>
+		
     `
 }
 
