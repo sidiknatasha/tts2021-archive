@@ -60,6 +60,16 @@ const day2 = [
 		
 	},
 	{
+		
+		"Time": "7:30 - 8:00 PM",
+		/*"Category": "Workshop",*/
+		"Title": "Intro to Javascript",
+		"Host": "Megan Lo",
+		"Description": "",
+		"Link": "",
+		
+	},
+	{
 		"Time": "8:00 - 8:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to React",
@@ -71,7 +81,7 @@ const day2 = [
 		"Time": "8:30 - 9:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Microsoft Workshop",
-		"Host": "",
+		"Host": "TBA",
 		"Description": "",
 	
 	},
@@ -178,8 +188,16 @@ const day3 = [
 	{
 		"Time": "12:30 - 1:00 PM",
 		/*"Category": "Workshop",*/
-		"Title": "Keynote Speaker Session",
+		"Title": "Microsoft Keynote Speaker",
 		"Host": "TBA",
+		"Description": "",
+	
+	},
+	{
+		"Time": "1:30 - 2:00 PM",
+		/*"Category": "Workshop",*/
+		"Title": "User Experience Design - from A to Z!",
+		"Host": "Kala Campbell",
 		"Description": "",
 	
 	},
@@ -187,7 +205,7 @@ const day3 = [
 		"Time": "1:30 - 3:00 PM",
 		/*"Category": "Universal",*/
 		"Title": "Career Fair",
-		"Host": "",
+		"Host": "TBA",
 		"Description": "",
 		
 	},
@@ -203,7 +221,7 @@ const day3 = [
 		"Time": "3:00 - 4:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Microsoft Workshop",
-		"Host": "",
+		"Host": "TBA",
 		"Description": "",
 		
 	},
@@ -228,15 +246,15 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to designing with Canva",
 		"Host": "Belle See",
-		"Description": "Want to quickly and easily create posters, instagram posts, presentations and everything under the umbrella of graphic design? Utilise the power of Canva to get started. We'll be covering how to use the Canva platform, utilising and modifying templates, general graphic design rules, Canva tips and tricks and wrap it all up with a mini design task.",
-		
+		"Description": "",
+			
 	},
 	{
 		"Time": "7:00 - 8:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to designing websites",
 		"Host": "Belle See",
-		"Description": "Anyone, including you, can be a website designer! Within an hour, learn about visual hierarchy, layout, design styles, and rules of website design. The second half of the workshop is a hands-on portion where you'll be able to play the role of a website designer and put theory into practice!",
+		"Description": "",
 		
 	},
 	{
@@ -278,7 +296,7 @@ const day4 = [
 		"Time": "9:30 - 10:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Microsoft Workshop",
-		"Host": "",
+		"Host": "TBA",
 		"Description": "",
 		"Link": ""
 	},
@@ -302,9 +320,9 @@ const day4 = [
 	{
 		"Time": "12:30 - 1:00 PM",
 		/*"Category": "Workshop",*/
-		"Title": "Intro to Open Source: Overcoming the Fear of Contributing to Open Source",
+		"Title": "Intro to Open Source",
 		"Host": "Rizel Scarlett",
-		"Description": "I spent the last 3 years of my careers nervous to contribute to open source. The codebases seemed so large and the documentation was intimidating! Learn how I overcame that fear and how you can too!",
+		"Description": "",
 		
 	},
 ]
@@ -333,7 +351,6 @@ function fillData(data){
 function sched_template(day_data){
     return `
     <div class="event">
-        <span id="category" class="circle fs-3"> ${day_data.Category.charAt(0)} </span>
         <h4 class="fs-4 text-primary">
             <span style="font-weight: bold;"> 
 				${day_data.Link ? `<a href=${day_data.Link}> ${day_data.Title} </a>` : `${day_data.Title}` }

@@ -24,7 +24,7 @@ a:hover {
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 990px) {
   .hidemobile-mascot {
     visibility: hidden;
   }
@@ -762,8 +762,9 @@ a:hover {
 }
 
 .event h4 {
+  color: #122c5e;
   text-align: left;
-  padding-left: 4em;
+  padding-left: 1em;
   padding-bottom: 1em;
   line-height: 1;
   position: relative;
