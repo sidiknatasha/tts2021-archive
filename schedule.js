@@ -354,11 +354,11 @@ function fillData(data){
 function sched_template(day_data){
     return `
     <div class="event">
-        <h4 class="fs-4 text-primary">
+        <h4 class="fs-4" style="color:#1D539F">
             <span style="font-weight: semi-bold;"> 
 				${day_data.Link ? `<a href=${day_data.Link}> ${day_data.Title} </a>` : `${day_data.Title}` }
 			</span>
-            <span class="fs-6 black" style="font-weight: bold; float:right">${day_data.Time}</span> 
+            <span class="black space5" style="font-weight: bold; float:right">${day_data.Time}</span> 
             <br>
             <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
         </h4>
