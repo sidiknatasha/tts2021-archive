@@ -19,6 +19,14 @@ const day1 = [
 
 const day2 = [
 	{
+		"Time": "3:00 - 4:00 PM",
+		/*"Category": "Universal",*/
+		"Title": "Career Fair",
+		"Host": "TT Seattle Team",
+		"Description": "",
+		
+	},
+	{
 		"Time": "5:00 - 5:30 PM",
 		/*"Category": "Universal",*/
 		"Title": "Opening Ceremony",
@@ -36,9 +44,9 @@ const day2 = [
 	},
 	{
 		"Time": "6:00 - 6:30 PM",
-		/*"Category": "Activity",*/
-		"Title": "Team Formation 3",
-		"Host": "TT Seattle Team",
+		/*"Category": "Workshop",*/
+		"Title": "Intro to GitHub",
+		"Host": "Maryam Salawu",
 		"Description": "",
 		
 	},
