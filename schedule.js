@@ -13,7 +13,6 @@ const day1 = [
 		"Title": "Team Formation 1",
 		"Host": "TT Seattle Team",
 		"Description": "",
-
 	},
 ]
 
@@ -46,7 +45,7 @@ const day2 = [
 		"Time": "6:00 - 6:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to GitHub",
-		"Host": "Maryam Salawu",
+		"Host": "Maryam Salawu (JP Morgan Chase)",
 		"Description": "",
 		
 	},
@@ -54,7 +53,7 @@ const day2 = [
 		"Time": "6:30 - 7:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Web Development: HTML/CSS",
-		"Host": "Gabriella Miesner",
+		"Host": "Gabriella Miesner (TechTogether Chicago)",
 		"Description": "",
 		
 	},
@@ -63,7 +62,7 @@ const day2 = [
 		"Time": "7:00 - 7:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Debugging",
-		"Host": "Leslie Richardson",
+		"Host": "Leslie Richardson (Microsoft)",
 		"Description": "",
 		
 	},
@@ -72,7 +71,7 @@ const day2 = [
 		"Time": "7:30 - 8:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Javascript",
-		"Host": "Megan Lo",
+		"Host": "Megan Lo (Olive AI)",
 		"Description": "",
 		"Link": "",
 		
@@ -81,7 +80,7 @@ const day2 = [
 		"Time": "8:00 - 8:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to React",
-		"Host": "Rakshaa Viswanathan",
+		"Host": "Rakshaa Viswanathan (Microsodt)",
 		"Description": "",
 	
 	},
@@ -97,7 +96,7 @@ const day2 = [
 		"Time": "9:00 - 9:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Flutter",
-		"Host": "Akanksha Singh",
+		"Host": "Akanksha Singh (Auth0)",
 		"Description": ""
 	},
 	{
@@ -115,7 +114,7 @@ const day3 = [
 		"Time": "8:30 - 8:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Python",
-		"Host": "Libby Sun",
+		"Host": "Libby Sun (Lyft)",
 		"Description": "",
 
 	},
@@ -124,7 +123,7 @@ const day3 = [
 		"Time": "8:30 - 9:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Brainstorming ideas for your hack",
-		"Host": "Vaishnavi Dwivedi",
+		"Host": "Vaishnavi Dwivedi (Github)",
 		"Description": "",
 		"Link": ""
 	},
@@ -133,7 +132,7 @@ const day3 = [
 		"Time": "9:00 - 9:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "SWE Interview Prep",
-		"Host": "Libby Sun",
+		"Host": "Libby Sun (Lyft)",
 		"Description": "",
 
 	},
@@ -141,7 +140,7 @@ const day3 = [
 		"Time": "9:30 - 10:00 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Into to SQL",
-		"Host": "Rebecca Hadi",
+		"Host": "Rebecca Hadi (Stealth Mode)",
 		"Description": "",
 
 	},
@@ -149,7 +148,7 @@ const day3 = [
 		"Time": "10:00 - 10:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Building your portfolio website",
-		"Host": "Sushree Satarupa",
+		"Host": "Sushree Satarupa (Shecoders)",
 		"Description": "",
 		
 	},
@@ -165,7 +164,7 @@ const day3 = [
 		"Time": "10:30 - 11:00 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to iOS Dev: Xcode",
-		"Host": "Shirui Zhong",
+		"Host": "Shirui Zhong (Kode with Klossy)",
 		"Description": "",
 		
 	},
@@ -173,7 +172,7 @@ const day3 = [
 		"Time": "11:00 - 11:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Non-Traditional Background in Tech",
-		"Host": "Izzy Lapidus",
+		"Host": "Izzy Lapidus (Barnard College)",
 		"Description": "",
 	
 	},
@@ -181,7 +180,7 @@ const day3 = [
 		"Time": "11:30 - 12:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to APIs",
-		"Host": "Maria Sitkovets",
+		"Host": "Maria Sitkovets (Shopify)",
 		"Description": "",
 		
 	},
@@ -189,7 +188,7 @@ const day3 = [
 		"Time": "12:00 - 12:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intersectionality with Tech & other fields",
-		"Host": "Hana Gabrielle Bidon",
+		"Host": "Hana Gabrielle Bidon (Wells Fargo)",
 		"Description": "",
 		
 	},
@@ -205,7 +204,7 @@ const day3 = [
 		"Time": "1:30 - 2:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "User Experience Design - from A to Z!",
-		"Host": "Kala Campbell",
+		"Host": "Kala Campbell (Pega Systems)",
 		"Description": "",
 	
 	},
@@ -221,7 +220,7 @@ const day3 = [
 		"Time": "2:00 - 2:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Deep Learning",
-		"Host": "Kapil Yadav",
+		"Host": "Kapil Yadav (Elio)",
 		"Description": "",
 		
 	},
@@ -237,7 +236,15 @@ const day3 = [
 		"Time": "4:00 - 5:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Code + Art - Create your coded portrait",
-		"Host": "Kaylla Torres",
+		"Host": "Kaylla Torres (Code/Art)",
+		"Description": "",
+		
+	},
+	{
+		"Time": "5:00 - 5:30 PM",
+		/*"Category": "Workshop",*/
+		"Title": "irl: Introduction to Inclusive Design",
+		"Host": "Natasha A Sidik (TechTogether Seattle)",
 		"Description": "",
 		
 	},
@@ -245,7 +252,7 @@ const day3 = [
 		"Time": "5:30 - 6:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "A Hitchhiker's Guide to Social Impact",
-		"Host": "Mingjie Jiang and Megan Cui",
+		"Host": "Mingjie Jiang and Megan Cui (Execute Big)",
 		"Description": "",
 		
 	},
@@ -253,7 +260,7 @@ const day3 = [
 		"Time": "6:00 - 6:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to designing with Canva",
-		"Host": "Belle See",
+		"Host": "Belle See (Command Tech)",
 		"Description": "",
 			
 	},
@@ -261,7 +268,7 @@ const day3 = [
 		"Time": "7:00 - 8:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to designing websites",
-		"Host": "Belle See",
+		"Host": "Belle See (Command Tech)",
 		"Description": "",
 		
 	},
@@ -269,15 +276,7 @@ const day3 = [
 		"Time": "8:00 - 8:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intersectionality with Tech & other fields",
-		"Host": "Hana Gabrielle Bidon",
-		"Description": "",
-		
-	},
-	{
-		"Time": "8:30 - 9:00 PM",
-		/*"Category": "Workshop",*/
-		"Title": "Building communities  & Opportunities in Opensource",
-		"Host": "Joshua Poddoku",
+		"Host": "Hana Gabrielle Bidon (Wells Fargo)",
 		"Description": "",
 		
 	},
@@ -295,7 +294,7 @@ const day4 = [
 		"Time": "9:00 - 9:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Take your hack to the next level",
-		"Host": "Vaishnavi Dwivedi",
+		"Host": "Vaishnavi Dwivedi (Github)",
 		"Description": "",
 
 	},
@@ -313,7 +312,7 @@ const day4 = [
 		"Time": "11:00 - 11:30 AM",
 		/*"Category": "Universal",*/
 		"Title": "Keynote Speaker Session",
-		"Host": "Audrey Pe",
+		"Host": "Audrey Pe (WiTech)",
 		"Description": "",
 
 	},
@@ -321,7 +320,7 @@ const day4 = [
 		"Time": "12:00 - 12:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Resume-Building & LinkedIn for HS Students",
-		"Host": "Stephanie Su",
+		"Host": "Stephanie Su (Superposition)",
 		"Description": "",
 
 	},
@@ -329,7 +328,14 @@ const day4 = [
 		"Time": "12:30 - 1:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Open Source",
-		"Host": "Rizel Scarlett",
+		"Host": "Rizel Scarlett (Github)",
+		"Description": "",
+	},
+	{
+		"Time": "1:30 - 2:00 PM",
+		/*"Category": "Workshop",*/
+		"Title": "Exploring opportunities and Leveraging the Power of Opensource",
+		"Host": "Joshua Poddoku (Aviyel)",
 		"Description": "",
 		
 	},
