@@ -46,7 +46,7 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to GitHub",
 		"Host": "Maryam Salawu (JP Morgan Chase)",
-		"Description": "",
+		"Description": "This workshop introduces GitHub for version control and collaboration. Attendees will learn how to set up a GitHub account, common git commands and understand the best practices.",
 		
 	},
 	{
@@ -54,7 +54,7 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Web Development: HTML/CSS",
 		"Host": "Gabriella Miesner (TechTogether Chicago)",
-		"Description": "",
+		"Description": "Hackers will learn the basics of HTML and CSS. Each participant will create a small website by the end of the workshop with their new skills.",
 		
 	},
 	{
@@ -63,7 +63,7 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Debugging",
 		"Host": "Leslie Richardson (Microsoft)",
-		"Description": "",
+		"Description": "In this workshop, participants will walk through an example app with deliberate bugs to introduce them to strategies/mindsets for debugging and basic debugging tools that can and should be utilized no matter the IDE being used.",
 		
 	},
 	{
@@ -72,7 +72,7 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Javascript",
 		"Host": "Megan Lo (Olive AI)",
-		"Description": "",
+		"Description": "A [possible hands-on] workshop where you will learn the basic syntax of JavaScript, including the object types and basic functions!",
 		"Link": "",
 		
 	},
@@ -81,7 +81,7 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to React",
 		"Host": "Rakshaa Viswanathan (Microsodt)",
-		"Description": "",
+		"Description": "This workshop will include an interactive presentation with an exercise at the end.",
 	
 	},
 	{
@@ -97,7 +97,7 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Flutter",
 		"Host": "Akanksha Singh (Auth0)",
-		"Description": ""
+		"Description": "The workshop will cover the basics of flutter, a cross-platform development framework by Google, UI designing, and other features."
 	},
 	{
 		"Time": "10:30 - 11:30 PM",
@@ -120,16 +120,16 @@ const day3 = [
 	},
 	{
 		
-		"Time": "8:30 - 9:00 PM",
+		"Time": "8:30 - 9:00 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Brainstorming ideas for your hack",
 		"Host": "Vaishnavi Dwivedi (Github)",
-		"Description": "",
+		"Description": "Learn how to effectively brainstorm ideas for your hack using some basic design thinking principles",
 		"Link": ""
 	},
 	{
 		
-		"Time": "9:00 - 9:30 PM",
+		"Time": "9:00 - 9:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "SWE Interview Prep",
 		"Host": "Libby Sun (Lyft)",
@@ -141,7 +141,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Into to SQL",
 		"Host": "Rebecca Hadi (Stealth Mode)",
-		"Description": "",
+		"Description": "The goal of the workshop is to provide a high level understanding of beginner to intermediate SQL concepts (joins, filtering, unions, aggregation, window functions).",
 
 	},
 	{
@@ -149,7 +149,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Building your portfolio website",
 		"Host": "Sushree Satarupa (Shecoders)",
-		"Description": "",
+		"Description": "Building a website about your brand and experience increases your visibility and online presence. Your Portfolio Website is website made to showcase your work.",
 		
 	},
 	{
@@ -165,15 +165,15 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to iOS Dev: Xcode",
 		"Host": "Shirui Zhong (Kode with Klossy)",
-		"Description": "",
+		"Description": "The workshop will be an intro to xCode & the story board/object library. I will also share some common issues & how to fix them.",
 		
 	},
 	{
-		"Time": "11:00 - 11:30 PM",
+		"Time": "11:00 - 11:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Non-Traditional Background in Tech",
 		"Host": "Izzy Lapidus (Barnard College)",
-		"Description": "",
+		"Description": "In this talk, Izzy takes you on a colorful journey of her experience growing up as an aspiring astrophysicist at predominately arts-focused schools into becoming the outspoken girls in STEM advocate and role model she is today. Izzy speaks on the importance of following your passion, while always leaving room for your passion to evolve and grow deeper. You'll reach the end of Izzy's talk feeling empowered to use whatever you're passionate about to change the world.",
 	
 	},
 	{
@@ -181,7 +181,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to APIs",
 		"Host": "Maria Sitkovets (Shopify)",
-		"Description": "",
+		"Description": "This workshop aims  to teach hackers all about how APIs work, how to build them, and how to test them.",
 		
 	},
 	{
@@ -189,7 +189,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intersectionality with Tech & other fields",
 		"Host": "Hana Gabrielle Bidon (Wells Fargo)",
-		"Description": "",
+		"Description": "Learn how you can combine your passion in tech with your other interests. Tech careers can range from UX design to digital accessibility work, and much more. tech? How can allies of the LGBTQ+ community lift our voices?",
 		
 	},
 	{
@@ -221,7 +221,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Deep Learning",
 		"Host": "Kapil Yadav (Elio)",
-		"Description": "",
+		"Description": "In this workshop, you're going to learn how Deep Learning plays a vital role in the overall field of Artificial Intelligence, how neural networks work from a mathematical perspective, and how to build your own Convolutional Neural network.",
 		
 	},
 	{
@@ -237,7 +237,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Code + Art - Create your coded portrait",
 		"Host": "Kaylla Torres (Code/Art)",
-		"Description": "",
+		"Description": "We are combining art and coding to challenge society’s view of what a coder looks like. Join us for an interactive workshop where you’ll learn to create your own digital self-portrait. No coding experience necessary! All participants are invited to submit their project to Code/Art’s CodeYourSelf™ competition after the workshop.",
 		
 	},
 	{
@@ -245,7 +245,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "irl: Introduction to Inclusive Design",
 		"Host": "Natasha A Sidik (TechTogether Seattle)",
-		"Description": "",
+		"Description": "Inclusion can be this abstract ideal that some may find hard to reach at times. Learn basic inclusive design concepts and some ideas on how to incorporate a few best practices in your workflow!",
 		
 	},
 	{
@@ -253,7 +253,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "A Hitchhiker's Guide to Social Impact",
 		"Host": "Mingjie Jiang and Megan Cui (Execute Big)",
-		"Description": "",
+		"Description": "This workshop will go over how we design our programs, and then we will have students design their own programs.",
 		
 	},
 	{
@@ -261,7 +261,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to designing with Canva",
 		"Host": "Belle See (Command Tech)",
-		"Description": "",
+		"Description": "Want to quickly and easily create posters, instagram posts, presentations and everything under the umbrella of graphic design? Utilise the power of Canva to get started. We'll be covering how to use the cCnva platform, utilising and modifying templates, general graphic design rules, Canva tips and tricks and wrap it all up with a mini design task.",
 			
 	},
 	{
@@ -269,7 +269,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to designing websites",
 		"Host": "Belle See (Command Tech)",
-		"Description": "",
+		"Description": "Anyone, including you, can be a website designer! Within an hour, learn about visual hierarchy, layout, design styles, and rules of website design :)) The second half of the workshop is a hands-on portion where you'll be able to play the role of a website designer and put theory into practice!",
 		
 	},
 	{
@@ -277,7 +277,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intersectionality with Tech & other fields",
 		"Host": "Hana Gabrielle Bidon (Wells Fargo)",
-		"Description": "",
+		"Description": "Learn how you can combine your passion in tech with your other interests. Tech careers can range from UX design to digital accessibility work, and much more. tech? How can allies of the LGBTQ+ community lift our voices?",
 		
 	},
 	{
@@ -295,7 +295,7 @@ const day4 = [
 		/*"Category": "Workshop",*/
 		"Title": "Take your hack to the next level",
 		"Host": "Vaishnavi Dwivedi (Github)",
-		"Description": "",
+		"Description": "Frustrated by incomplete/unusable hackathon projects just sitting on your GitHub? In this workshop, you'll learn how to turn your hacks into products, open-source projects and usable software.",
 
 	},
 	{
@@ -313,7 +313,7 @@ const day4 = [
 		/*"Category": "Universal",*/
 		"Title": "Keynote Speaker Session",
 		"Host": "Audrey Pe (WiTech)",
-		"Description": "",
+		"Description": "Audrey Pe is a sophomore at Stanford University and the founder and executive director of WiTech (@witechorg) -- a nonprofit organisation based in the Philippines that aims to educate, inspire, and empower youth to break gender barriers and use tech to make a difference in society. Her work with WiTech has garnered her recognition as a 2020 Gen.T Leader of Tomorrow, 2019 Global Teen Leader, 2020 Pinterest Council of Courage member, 2019 Women in Tech Global Aspiring Teen Award Finalist, among others. Audrey is a two-time TEDx, ASEAN and UN speaker, she has delivered over 100+ talks and has also been featured in local and international publications like Forbes, Esquire, and Elite Daily.",
 
 	},
 	{
@@ -321,7 +321,7 @@ const day4 = [
 		/*"Category": "Workshop",*/
 		"Title": "Resume-Building & LinkedIn for HS Students",
 		"Host": "Stephanie Su (Superposition)",
-		"Description": "",
+		"Description": "The goal of the workshop is to kickstart high school students' career development by developing a resume and a LinkedIn. I'll cover the basic components of each, and review some audience members' profiles at the end.",
 
 	},
 	{
@@ -329,14 +329,14 @@ const day4 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Open Source",
 		"Host": "Rizel Scarlett (Github)",
-		"Description": "",
+		"Description": "I spent the last 3 years of my careers nervous to contribute to open source. The codebases seemed so large and the documentation was intimidating! Learn how I overcame that fear and how you can too! ",
 	},
 	{
 		"Time": "1:30 - 2:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Exploring opportunities and Leveraging the Power of Opensource",
 		"Host": "Joshua Poddoku (Aviyel)",
-		"Description": "",
+		"Description": "The world we live in is only possible because of forgotten and unleashing power of Opensource. There are code and non-code contributions to scale projects. This session will be focused for enthusiasts to learn and explore opportunities under this space.",
 		
 	},
 ]
@@ -369,14 +369,12 @@ function sched_template(day_data){
     return `
     <div class="event">
         <h4 class="fs-4" style="color:#1D539F">
-            <span style="font-weight: semi-bold;"> 
-				${day_data.Link ? `<a href=${day_data.Link}> ${day_data.Title} </a>` : `${day_data.Title}` }
-			</span>
+            <span style="font-weight: semi-bold;" data-wenk="${day_data.Description}." class="wenk-length--large"> 
+				${day_data.Link ? `<a href=${day_data.Link}> ${day_data.Title} </a>` : `${day_data.Title}` }</span>
             <span class="black space5" style="font-weight: bold; float:right">${day_data.Time}</span> 
             <br>
             <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
         </h4>
-        <p>${day_data.Description}</p>
     </div>
     `
 }
