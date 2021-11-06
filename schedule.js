@@ -4,7 +4,7 @@ const day1 = [
 		/*"Category": "Universal",*/
 		"Title": "Hackathon 101",
 		"Host": "TT Seattle Team",
-		"Description": "",
+		"Description": "Bla Bla Bla",
 		
 	},
 	{
@@ -12,7 +12,7 @@ const day1 = [
 		/*"Category": "Activity",*/
 		"Title": "Team Formation 1",
 		"Host": "TT Seattle Team",
-		"Description": "",
+		"Description": "Hi",
 	},
 ]
 
