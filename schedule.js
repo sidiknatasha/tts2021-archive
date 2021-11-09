@@ -46,7 +46,7 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to GitHub",
 		"Host": "Maryam Salawu (JP Morgan Chase)",
-		"Description": "This workshop introduces GitHub for version control and collaboration. Attendees will learn how to set up a GitHub account, common git commands and understand the best practices.",
+		"Description": "This workshop introduces GitHub for version control and collaboration through common git commands and understand the best practices.",
 		
 	},
 	{
@@ -54,7 +54,7 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Web Development: HTML/CSS",
 		"Host": "Gabriella Miesner (TechTogether Chicago)",
-		"Description": "Hackers will learn the basics of HTML and CSS. Each participant will create a small website by the end of the workshop with their new skills.",
+		"Description": "Hackers will learn the basics of HTML and CSS. Participants will create a small website by the end of the workshop.",
 		
 	},
 	{
@@ -63,7 +63,7 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Debugging",
 		"Host": "Leslie Richardson (Microsoft)",
-		"Description": "In this workshop, participants will walk through an example app with deliberate bugs to introduce them to strategies/mindsets for debugging and basic debugging tools that can and should be utilized no matter the IDE being used.",
+		"Description": "In this workshop, participants will walk through an example app with deliberate bugs to introduce them to strategies/mindsets for debugging and basic tools.",
 		
 	},
 	{
@@ -72,7 +72,7 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Javascript",
 		"Host": "Megan Lo (Olive AI)",
-		"Description": "A [possible hands-on] workshop where you will learn the basic syntax of JavaScript, including the object types and basic functions!",
+		"Description": "A workshop going over the basic syntax of JavaScript, including the object types and basic functions!",
 		"Link": "",
 		
 	},
@@ -375,38 +375,40 @@ function sched_template(day_data){
 			<br>
             <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
     	</h4>
+
+		<span>
+		<!-- Button trigger modal -->
+		<button type="button" class="btn buttone" data-toggle="modal" data-target="#description">
+			  View description
+		</button>
+	
+		<!-- Modal -->
+		<div class="modal fade" id="description" tabindex="-1" role="dialog" aria-labelledby="description" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				   <div class="modal-content">
+					 <div class="modal-header">
+						<h5 class="modal-title" id="description">Workshop Description</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+					  </div>
+					  <span class="modal-body">
+						<p>"${day_data.Description}"</p>
+					  </span>
+					  <div class="modal-footer">
+						<button type="button" class="btn buttone" data-dismiss="modal">Close</button>
+					  </div>
+				</div>
+			  </div>
 		</div>
+	</span>
+	</div>
+		
 		`
 		}
 	
 
-{/* 		<span>
-			<!-- Button trigger modal -->
-			<button type="button" class="btn buttone" data-toggle="modal" data-target="#description">
-  				View description
-			</button>
-		
-			<!-- Modal -->
-			<div class="modal fade" id="description" tabindex="-1" role="dialog" aria-labelledby="description" aria-hidden="true">
-  				<div class="modal-dialog" role="document">
-   					<div class="modal-content">
-     					<div class="modal-header">
-        					<h5 class="modal-title" id="description">Workshop Description</h5>
-        					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          					<span aria-hidden="true">&times;</span>
-        					</button>
-      					</div>
-      					<span class="modal-body">
-							<p>"${day_data.Description}"</p>
-      					</span>
-      					<div class="modal-footer">
-        					<button type="button" class="btn buttone" data-dismiss="modal">Close</button>
-      					</div>
-    				</div>
-  				</div>
-			</div>
-		</span>
-*/}
+
 
 {/* 
 <span id="category" class="circle">${day_data.Category.charAt(0)}</span>
