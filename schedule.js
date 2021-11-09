@@ -1,9 +1,9 @@
 const day1 = [
 	{
 		"Time": "7:00 - 7:30 PM",
-		/*"Category": "Universal",*/
-		"Title": "Hackathon 101",
-		"Host": "TT Seattle Team",
+		/*"Category": "Workshop",*/
+		"Title": "Beginner's Guide to Hackathons",
+		"Host": "Zane Hasnain (VTHacks)",
 		"Description": "Bla Bla Bla",
 		
 	},
@@ -375,8 +375,12 @@ function sched_template(day_data){
 			<br>
             <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
     	</h4>
+		</div>
+		`
+		}
+	
 
-		<span>
+{/* 		<span>
 			<!-- Button trigger modal -->
 			<button type="button" class="btn buttone" data-toggle="modal" data-target="#description">
   				View description
@@ -402,9 +406,7 @@ function sched_template(day_data){
   				</div>
 			</div>
 		</span>
-    </div>
-    `
-}
+*/}
 
 {/* 
 <span id="category" class="circle">${day_data.Category.charAt(0)}</span>
