@@ -375,40 +375,37 @@ function sched_template(day_data){
 			<br>
             <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
     	</h4>
-
-		<span>
-		<!-- Button trigger modal -->
-		<button type="button" class="btn buttone" data-toggle="modal" data-target="#description">
-			  View description
-		</button>
-	
-		<!-- Modal -->
-		<div class="modal fade" id="description" tabindex="-1" role="dialog" aria-labelledby="description" aria-hidden="true">
-			  <div class="modal-dialog" role="document">
-				   <div class="modal-content">
-					 <div class="modal-header">
-						<h5 class="modal-title" id="description">Workshop Description</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						  <span aria-hidden="true">&times;</span>
-						</button>
-					  </div>
-					  <span class="modal-body">
-						<p>"${day_data.Description}"</p>
-					  </span>
-					  <div class="modal-footer">
-						<button type="button" class="btn buttone" data-dismiss="modal">Close</button>
-					  </div>
-				</div>
-			  </div>
 		</div>
-	</span>
-	</div>
-		
 		`
-		}
+	}
 	
 
-
+/*		<span>
+			<!-- Button trigger modal -->
+			<button type="button" class="btn buttone" data-toggle="modal" data-target="#description">
+  				View description
+			</button>
+		
+			<!-- Modal -->
+			<div class="modal fade" id="description" tabindex="-1" role="dialog" aria-labelledby="description" aria-hidden="true">
+  				<div class="modal-dialog" role="document">
+   					<div class="modal-content">
+     					<div class="modal-header">
+        					<h5 class="modal-title" id="description">Workshop Description</h5>
+        					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          					<span aria-hidden="true">&times;</span>
+        					</button>
+      					</div>
+      					<span class="modal-body">
+							<p>"${day_data.Description}"</p>
+      					</span>
+      					<div class="modal-footer">
+        					<button type="button" class="btn buttone" data-dismiss="modal">Close</button>
+      					</div>
+    				</div>
+  				</div>
+			</div>
+		</span>*/
 
 {/* 
 <span id="category" class="circle">${day_data.Category.charAt(0)}</span>
