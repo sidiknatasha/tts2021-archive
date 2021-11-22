@@ -3,8 +3,13 @@ const day1 = [
 		"Time": "7:00 - 7:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Beginner's Guide to Hackathons",
+<<<<<<< Updated upstream
 		"Host": "Zane Hasnain (VTHacks)",
 		"Description": "Bla Bla Bla",
+=======
+		"Host": "Zane Hasnain (VT Hacks)",
+		"Description": "A workshop for those new to hackathons on, to get the most out of their experience. I'll also provide actionable advice from my experience as one of the MLH Top 50, and as someone who has supported 40+ hackathons. From this workshop, you'll learn how to go from an idea to a prototype, work within a team, and present to judges.",
+>>>>>>> Stashed changes
 		
 	},
 	{
@@ -12,7 +17,7 @@ const day1 = [
 		/*"Category": "Activity",*/
 		"Title": "Team Formation 1",
 		"Host": "TT Seattle Team",
-		"Description": "Hi",
+		"Description": "Test",
 	},
 ]
 
@@ -80,8 +85,8 @@ const day2 = [
 		"Time": "8:00 - 8:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to React",
-		"Host": "Rakshaa Viswanathan (Microsodt)",
-		"Description": "This workshop will include an interactive presentation with an exercise at the end.",
+		"Host": "Danay Fernandez (Techtogether Miami)",
+		"Description": "This workshop will cover the basics of how to create a React app. We will be building a simple React app to get you started with your project.",
 	
 	},
 	{
@@ -100,9 +105,16 @@ const day2 = [
 		"Description": "The workshop will cover the basics of flutter, a cross-platform development framework by Google, UI designing, and other features."
 	},
 	{
-		"Time": "10:30 - 11:30 PM",
+		"Time": "10:30 - 11:00 PM",
 		/*"Category": "Activity",*/
-		"Title": "Late Night Fun",
+		"Title": "Speed Networking - We're Not Really Strangers 😳",
+		"Host": "TT Seattle Team",
+		"Description": "",
+	},
+	{
+		"Time": "11:00 - 11:30 PM",
+		/*"Category": "Activity",*/
+		"Title": "Seattle Trivia 👀",
 		"Host": "TT Seattle Team",
 		"Description": "",
 	},
@@ -114,7 +126,7 @@ const day3 = [
 		"Time": "8:30 - 8:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Python",
-		"Host": "Libby Sun (Lyft)",
+		"Host": "Gabriella Miesner (TechTogether Chicago)",
 		"Description": "",
 
 	},
@@ -132,7 +144,7 @@ const day3 = [
 		"Time": "9:00 - 9:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "SWE Interview Prep",
-		"Host": "Libby Sun (Lyft)",
+		"Host": "CiCi Swann (GitHub, GoDaddy)",
 		"Description": "",
 
 	},
@@ -265,6 +277,14 @@ const day3 = [
 			
 	},
 	{
+		"Time": "6:30 - 7:00 PM",
+		/*"Category": "Workshop",*/
+		"Title": "Crushing College Admissions as a Prospective STEM Major",
+		"Host": "Vivian Wang (Standford University)",
+		"Description": "Want to quickly and easily create posters, instagram posts, presentations and everything under the umbrella of graphic design? Utilise the power of Canva to get started. We'll be covering how to use the cCnva platform, utilising and modifying templates, general graphic design rules, Canva tips and tricks and wrap it all up with a mini design task.",
+			
+	},
+	{
 		"Time": "7:00 - 8:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to designing websites",
@@ -281,9 +301,16 @@ const day3 = [
 		
 	},
 	{
-		"Time": "10:30 - 11:30 PM",
+		"Time": "10:00 - 11:00 PM",
 		/*"Category": "Activity",*/
-		"Title": "Late Night Fun",
+		"Title": "TTS Plays Games! 👾",
+		"Host": "TT Seattle Team",
+		"Description": "",
+	},
+	{
+		"Time": "11:00 - 11:30 PM",
+		/*"Category": "Activity",*/
+		"Title": "Movie Night 🎬 🍿",
 		"Host": "TT Seattle Team",
 		"Description": "",
 	},
@@ -375,10 +402,28 @@ function sched_template(day_data){
 			<br>
             <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
     	</h4>
+<<<<<<< Updated upstream
 		</div>
 		`
 	}
 	
+=======
+	</div>
+    `
+}
+
+
+/* function sched_template(day_data){
+    return `
+    <div class="event">
+        <h4 class="fs-4" style="color:#1D539F">
+            <span style="font-weight: semi-bold;"> 
+				${day_data.Link ? `<a href=${day_data.Link}> ${day_data.Title} </a>` : `${day_data.Title}` }</span>
+            <span class="black space5" style="font-weight: bold; float:right">${day_data.Time}</span> 
+			<br>
+            <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
+    	</h4>
+>>>>>>> Stashed changes
 
 /*		<span>
 			<!-- Button trigger modal -->
@@ -405,7 +450,15 @@ function sched_template(day_data){
     				</div>
   				</div>
 			</div>
+<<<<<<< Updated upstream
 		</span>*/
+=======
+		</span>
+    </div>
+    `
+}
+*/
+>>>>>>> Stashed changes
 
 {/* 
 <span id="category" class="circle">${day_data.Category.charAt(0)}</span>
