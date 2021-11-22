@@ -3,13 +3,8 @@ const day1 = [
 		"Time": "7:00 - 7:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Beginner's Guide to Hackathons",
-<<<<<<< Updated upstream
-		"Host": "Zane Hasnain (VTHacks)",
-		"Description": "Bla Bla Bla",
-=======
 		"Host": "Zane Hasnain (VT Hacks)",
 		"Description": "A workshop for those new to hackathons on, to get the most out of their experience. I'll also provide actionable advice from my experience as one of the MLH Top 50, and as someone who has supported 40+ hackathons. From this workshop, you'll learn how to go from an idea to a prototype, work within a team, and present to judges.",
->>>>>>> Stashed changes
 		
 	},
 	{
@@ -402,12 +397,6 @@ function sched_template(day_data){
 			<br>
             <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
     	</h4>
-<<<<<<< Updated upstream
-		</div>
-		`
-	}
-	
-=======
 	</div>
     `
 }
@@ -423,7 +412,6 @@ function sched_template(day_data){
 			<br>
             <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
     	</h4>
->>>>>>> Stashed changes
 
 /*		<span>
 			<!-- Button trigger modal -->
@@ -450,15 +438,11 @@ function sched_template(day_data){
     				</div>
   				</div>
 			</div>
-<<<<<<< Updated upstream
-		</span>*/
-=======
 		</span>
     </div>
     `
 }
 */
->>>>>>> Stashed changes
 
 {/* 
 <span id="category" class="circle">${day_data.Category.charAt(0)}</span>
