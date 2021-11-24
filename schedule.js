@@ -3,17 +3,16 @@ const day1 = [
 		"Time": "7:00 - 7:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Beginner's Guide to Hackathons",
-		"Host": "Zane Hasnain (VT Hacks)",
-		"Description": "A workshop for those new to hackathons on, to get the most out of their experience. I'll also provide actionable advice from my experience as one of the MLH Top 50, and as someone who has supported 40+ hackathons. From this workshop, you'll learn how to go from an idea to a prototype, work within a team, and present to judges.",
-		
+		"Host": "Zane Hasnain (VTHacks)",
+		"Description": "Bla Bla Bla",
 	},
 	{
 		"Time": "7:30 - 8:00 PM",
 		/*"Category": "Activity",*/
 		"Title": "Team Formation 1",
 		"Host": "TT Seattle Team",
-		"Description": "Test",
-	},
+		"Description": "Hi",
+	}
 ]
 
 const day2 = [
@@ -22,7 +21,7 @@ const day2 = [
 		/*"Category": "Universal",*/
 		"Title": "Career Fair",
 		"Host": "TT Seattle Team",
-		"Description": "",
+		"Description": "Meet with sponsors",
 		
 	},
 	{
@@ -80,8 +79,8 @@ const day2 = [
 		"Time": "8:00 - 8:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to React",
-		"Host": "Danay Fernandez (Techtogether Miami)",
-		"Description": "This workshop will cover the basics of how to create a React app. We will be building a simple React app to get you started with your project.",
+		"Host": "Rakshaa Viswanathan (Microsodt)",
+		"Description": "This workshop will include an interactive presentation with an exercise at the end.",
 	
 	},
 	{
@@ -100,16 +99,9 @@ const day2 = [
 		"Description": "The workshop will cover the basics of flutter, a cross-platform development framework by Google, UI designing, and other features."
 	},
 	{
-		"Time": "10:30 - 11:00 PM",
+		"Time": "10:30 - 11:30 PM",
 		/*"Category": "Activity",*/
-		"Title": "Speed Networking - We're Not Really Strangers 😳",
-		"Host": "TT Seattle Team",
-		"Description": "",
-	},
-	{
-		"Time": "11:00 - 11:30 PM",
-		/*"Category": "Activity",*/
-		"Title": "Seattle Trivia 👀",
+		"Title": "Late Night Fun",
 		"Host": "TT Seattle Team",
 		"Description": "",
 	},
@@ -121,7 +113,7 @@ const day3 = [
 		"Time": "8:30 - 8:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Python",
-		"Host": "Gabriella Miesner (TechTogether Chicago)",
+		"Host": "Libby Sun (Lyft)",
 		"Description": "",
 
 	},
@@ -139,7 +131,7 @@ const day3 = [
 		"Time": "9:00 - 9:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "SWE Interview Prep",
-		"Host": "CiCi Swann (GitHub, GoDaddy)",
+		"Host": "Libby Sun (Lyft)",
 		"Description": "",
 
 	},
@@ -268,15 +260,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to designing with Canva",
 		"Host": "Belle See (Command Tech)",
-		"Description": "Want to quickly and easily create posters, instagram posts, presentations and everything under the umbrella of graphic design? Utilise the power of Canva to get started. We'll be covering how to use the cCnva platform, utilising and modifying templates, general graphic design rules, Canva tips and tricks and wrap it all up with a mini design task.",
-			
-	},
-	{
-		"Time": "6:30 - 7:00 PM",
-		/*"Category": "Workshop",*/
-		"Title": "Crushing College Admissions as a Prospective STEM Major",
-		"Host": "Vivian Wang (Standford University)",
-		"Description": "Want to quickly and easily create posters, instagram posts, presentations and everything under the umbrella of graphic design? Utilise the power of Canva to get started. We'll be covering how to use the cCnva platform, utilising and modifying templates, general graphic design rules, Canva tips and tricks and wrap it all up with a mini design task.",
+		"Description": "Want to quickly and easily create posters, instagram posts, presentations and everything under the umbrella of graphic design? Utilise the power of Canva to get started. We'll be covering how to use the cCnva platform, utilising and modifying templates, general graphic design rules, Canva tips and tricks and wrap it all up with a mini design task."
 			
 	},
 	{
@@ -284,7 +268,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to designing websites",
 		"Host": "Belle See (Command Tech)",
-		"Description": "Anyone, including you, can be a website designer! Within an hour, learn about visual hierarchy, layout, design styles, and rules of website design :)) The second half of the workshop is a hands-on portion where you'll be able to play the role of a website designer and put theory into practice!",
+		"Description": "Anyone, including you, can be a website designer! Within an hour, learn about visual hierarchy, layout, design styles, and rules of website design :)) The second half of the workshop is a hands-on portion where you'll be able to play the role of a website designer and put theory into practice!"
 		
 	},
 	{
@@ -292,22 +276,15 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intersectionality with Tech & other fields",
 		"Host": "Hana Gabrielle Bidon (Wells Fargo)",
-		"Description": "Learn how you can combine your passion in tech with your other interests. Tech careers can range from UX design to digital accessibility work, and much more. tech? How can allies of the LGBTQ+ community lift our voices?",
+		"Description": "Learn how you can combine your passion in tech with your other interests. Tech careers can range from UX design to digital accessibility work, and much more. tech? How can allies of the LGBTQ+ community lift our voices?"
 		
 	},
 	{
-		"Time": "10:00 - 11:00 PM",
+		"Time": "10:30 - 11:30 PM",
 		/*"Category": "Activity",*/
-		"Title": "TTS Plays Games! 👾",
+		"Title": "Late Night Fun",
 		"Host": "TT Seattle Team",
-		"Description": "",
-	},
-	{
-		"Time": "11:00 - 11:30 PM",
-		/*"Category": "Activity",*/
-		"Title": "Movie Night 🎬 🍿",
-		"Host": "TT Seattle Team",
-		"Description": "",
+		"Description": ""
 	},
 ]
 const day4 = [
@@ -317,7 +294,7 @@ const day4 = [
 		/*"Category": "Workshop",*/
 		"Title": "Take your hack to the next level",
 		"Host": "Vaishnavi Dwivedi (Github)",
-		"Description": "Frustrated by incomplete/unusable hackathon projects just sitting on your GitHub? In this workshop, you'll learn how to turn your hacks into products, open-source projects and usable software.",
+		"Description": "Frustrated by incomplete/unusable hackathon projects just sitting on your GitHub? In this workshop, you'll learn how to turn your hacks into products, open-source projects and usable software."
 
 	},
 	{
@@ -363,10 +340,18 @@ const day4 = [
 	},
 ]
 
+var uniqId = (function(){
+    var i=0;
+    return function() { return i++; }
+})();
+
+
 document.getElementById('1').onclick = () => {fillData(day1)}
 document.getElementById('2').onclick = () => {fillData(day2)}
 document.getElementById('3').onclick = () => {fillData(day3)}
 document.getElementById('4').onclick = () => {fillData(day4)}
+
+
 
 
 document.getElementById('day').innerHTML = `
@@ -388,6 +373,9 @@ function fillData(data){
 }
 
 function sched_template(day_data){
+
+	currId = uniqId();
+
     return `
     <div class="event">
         <h4 class="fs-4" style="color:#1D539F">
@@ -397,52 +385,35 @@ function sched_template(day_data){
 			<br>
             <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
     	</h4>
-	</div>
-    `
+	
+		<span>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn buttone" data-toggle="modal" data-target="#workshop-${currId}">
+                View description
+            </button>
+        
+            <!-- Modal -->
+            <div class="modal fade" id="workshop-${currId}" tabindex="-1" role="dialog" aria-labelledby="workshop-${currId}" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="workshop-${currId}">Workshop Description</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <span class="modal-body">
+                            <p>${day_data.Description}</p>
+                        </span>
+                        <div class="modal-footer">
+                            <button type="button" class="btn buttone" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+	    </span>
+	</div>`
 }
-
-
-/* function sched_template(day_data){
-    return `
-    <div class="event">
-        <h4 class="fs-4" style="color:#1D539F">
-            <span style="font-weight: semi-bold;"> 
-				${day_data.Link ? `<a href=${day_data.Link}> ${day_data.Title} </a>` : `${day_data.Title}` }</span>
-            <span class="black space5" style="font-weight: bold; float:right">${day_data.Time}</span> 
-			<br>
-            <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
-    	</h4>
-
-/*		<span>
-			<!-- Button trigger modal -->
-			<button type="button" class="btn buttone" data-toggle="modal" data-target="#description">
-  				View description
-			</button>
-		
-			<!-- Modal -->
-			<div class="modal fade" id="description" tabindex="-1" role="dialog" aria-labelledby="description" aria-hidden="true">
-  				<div class="modal-dialog" role="document">
-   					<div class="modal-content">
-     					<div class="modal-header">
-        					<h5 class="modal-title" id="description">Workshop Description</h5>
-        					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          					<span aria-hidden="true">&times;</span>
-        					</button>
-      					</div>
-      					<span class="modal-body">
-							<p>"${day_data.Description}"</p>
-      					</span>
-      					<div class="modal-footer">
-        					<button type="button" class="btn buttone" data-dismiss="modal">Close</button>
-      					</div>
-    				</div>
-  				</div>
-			</div>
-		</span>
-    </div>
-    `
-}
-*/
 
 {/* 
 <span id="category" class="circle">${day_data.Category.charAt(0)}</span>
