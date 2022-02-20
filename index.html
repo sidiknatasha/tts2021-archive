@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tech Together Seattle</title>
+    <title>TechTogether Seattle</title>
     <meta charset="utf-8">
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,113 +25,115 @@
     <!--stylesheets--> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css">
-
-    <script src="script.js"></script>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!--NAVIGATION-->
+    <!-- NAVIGATION -->
 
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-lg">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars white"></i></span>
+      </button>
 
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-   
-          <span class="navbar-toggler-icon"><i class="fas fa-bars black"> </i></span>
-   
-        </button>
-   
-        <!--TTSlogo-->
-         <a class="navbar-brand" href="https://techtogether.io/events">
-            <img class="logo" src="images/ttslogo.png">
-         </a>
-     
-        <!--Links-->
-        <div class="collapse navbar-collapse space6" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-              <li class="nav-item"><a class="nav-link" href="#about"><h4 class="nav-link main barlow">Why Join</h4></a></li>
-              <li class="nav-item"><a class="nav-link" href="#schedule"><h4 class="nav-link main barlow">Schedule</h4></a></li>
-              <li class="nav-item"><a class="nav-link" href="#get-involved"><h4 class="nav-link main barlow">Get Involved</h4></a></li>
-              <li class="nav-item"><a class="nav-link" href="#tracks"><h4 class="nav-link main barlow">Tracks</h4></a></li>
-              <li class="nav-item"><a class="nav-link" href="#faq"><h4 class ="nav-link main barlow">FAQ</h4></a></li>
-              <li class="nav-item"><a class="nav-link" href="#sponsors"><h4 class="nav-link main barlow">Sponsors</h4></a></li>
-              <li class="nav-item"><a class="nav-link" href="#contact"><h4 class="nav-link main barlow">Contact</h4></a></li>
-          </ul>
-        </div>   
+      <!--TTSlogo-->
+      <a class="navbar-brand hidemobile" href="https://techtogether.io/events" target="_blank">
+        <img class="logo" src="images/ttslogo.svg">
+      </a>
+
+      <!--NAV Links-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a href="#about"><h4 class="nav-link barlow this">About</h4></a></li>
+          <li class="nav-item"><a href="#schedule"><h4 class="nav-link barlow">Schedule</h4></a></li>
+          <li class="nav-item"><a href="#sponsors"><h4 class="nav-link barlow">Sponsors</h4></a></li>
+          <li class="nav-item"><a href="#tracks"><h4 class="nav-link barlow">Tracks</h4></a></li>
+          <li class="nav-item"><a href="#faq"><h4 class ="nav-link barlow">FAQs</h4></a></li>
+          <li class="nav-item"><a href="#contact"><h4 class="nav-link barlow">Contact</h4></a></li>
+        </ul>
+      </div>  
     </nav>
 
-    <!--MLH logo
-    <a id="mlh-trust-badge" style="display:block;max-width:125px;min-width:60px;position:absolute;right:50px;top:0;width:10%;z-index:10000" 
-    href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=white" 
-    target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg" 
-    alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>-->
+    <a class="hidemobile-mascot"
+      href="https://instagram.com/techtogetherseattle" target="_blank"><img src=images/byteiceflag.svg alt="Byte, Tech Together Mascot, wearing ice-breaking outfit for Tech Together Seattle." style="width:100%" class="mascot"></a>
+  
+      <!--MLH logo
+      <a id="mlh-trust-badge" style="display:block;max-width:125px;min-width:60px;position:absolute;right:50px;top:0;width:10%;z-index:10000" 
+      href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=white" 
+      target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg" 
+      alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>-->
 
-    <!--Banner-->
+      <!--Banner-->
+
         <div class="landscape">
             
-            <div class="flex-container">
-                <h1 class="epilogue space white">TechTogether</h1>
+            <div class="flex-container mobiletop space">
+                <h1 class="epilogue white"><center>TechTogether Seattle</center></h1>
             </div>
 
             <div class="flex-container">
-                <h3 class="epilogue2 space2 white">Breaking the Ice this NovemBURRR' 5 - 7, 2021 (virtually)</h3>
+                <h3 class="epilogue2 space space8 white"><center>Breaking the Ice this DecemBURRR’ 3 - 5, 2021 (virtually)</center></h3>
             </div>
 
-            <div class="flex-container space2">
-                <a class="buttona barlow title" href="https://www.eventbrite.com/e/techtogether-seattle-2021-tickets-162949306763">Register</a>
+            <div class="flex-container space8">
+                <span class="buttona"><center><a class="barlow title white" href="https://techtogether-seattle-hackathon.devpost.com/" target="_blank">View Challenges</a></center></span>
+                <span class="buttonb"><center><a class="barlow title white" href="https://techtogether-seattle-hackathon.devpost.com/" target="_blank">Submit Your Project</a></center></span>
+                <span class="buttona"><center><a class="barlow title white" href="https://drive.google.com/drive/folders/13ulWzC95GWxLQJrVBVeXkPwz4QlD9fwW?usp=sharing" target="_blank">Workshop Recordings</a></center></span>
+            <!--<span class="buttona"><center><a class="barlow title white" href="https://www.eventbrite.com/e/techtogether-seattle-2021-tickets-162949306763" target="_blank">Register to Attend</a></center></span>
                 <a class="buttonb barlow title" href="https://techtogether.typeform.com/to/B7gH63j2?typeform-source=techtogether.io">Sponsor</a>
-                <a class="buttona barlow title" href="https://techtogether.typeform.com/to/VLfDt2FU">Interest Form</a>
+                <a class="buttona barlow title" href="https://techtogether.typeform.com/to/VLfDt2FU">Volunteer Form</a>-->
             </div>
 
-            <img class="illust" src="images/landscape.svg" alt="Seattle Landscape">
+            <img class="illust space4 space6" src="images/landscape.png" alt="Seattle Landscape">
         </div>
 
-        <div id="about" class="flex-container">
-          <h3 class="epilogue space4 white">Why Join TechTogether Seattle?</h3>
+        <!-- About -->
+
+        <div id="about" class="flex-container space4">
+          <h3 class="epilogue space6 white"><center>About TechTogether Seattle</center></h3>
         </div>
 
         <div id="About" class="container space5 space">
           <div class="row">
-            <div class="col-md-4">
-              <div class="card card-1">
+            <div class="col-lg">
+              <div class="card card-1 cards">
                 <h4 class="barlow3 space">Community</h4>
                 <p class="barlow2">Become part of a community that embraces inclusion, all while discovering your unique strength and individuality. </p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card card-2">
+            <div class="col-lg">
+              <div class="card card-2 cards">
                 <h4 class="barlow3 space">Exploration</h4>
                 <p class="barlow2">Gain access to invaluable knowledge and opportunities in the tech industry by networking with Professionals.</p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card card-3">
+            <div class="col-lg">
+              <div class="card card-3 cards">
                 <h4 class="barlow3 space">Inclusive</h4>
-                <p class="barlow2">We’re committed to creating an inclusive environment for women and non-binary people to strive in the STEM field.</p>
+                <p class="barlow2">We’re committed to creating an inclusion for people of marginalized genders to strive within STEM.</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="container parta">
+        <div class="container parta space7">
           <div class="row">
-            <div class="col-md-4">
-              <div class="card card-4">
+            <div class="col-lg">
+              <div class="card card-4 cards">
                 <h4 class="barlow3 space">Career Success</h4>
                 <p class="barlow2">Harness new skills with our workshops and create your own groundbreaking projects.</p>
-                <a class="barlow3">See Event Schedule</a>
+                <a class="links" href="#schedule">See Event Schedule</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card card-5">
+            <div class="col-lg">
+              <div class="card card-5 cards">
                 <h4 class="barlow3 space">Trusted</h4>
                 <p class="barlow2">Up to 98% of TechTogether Seattle attendees said they would recommend the event to a friend (2020).</p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card card-6">
+            <div class="col-lg">
+              <div class="card card-6 cards">
                 <h4 class="barlow3 space">Fun</h4>
                 <p class="barlow2">Come melt the Seattle Freeze in exciting ways with us, and make new friends in a welcoming network.</p>
               </div>
@@ -139,172 +141,550 @@
           </div>
         </div>
 
-        <div id="schedule" class="flex-container">
-          <h3 class="epilogue space4 white">Schedule</h3>
+        <!-- Schedule -->
+
+        <section style="background: rgba(53, 58, 63, 60%); padding-bottom:5%; margin-top:3%;">
+          <div id="schedule" class="flex-container space5">
+          <h3 class="epilogue space6 white"><center>Schedule</center></h3>
         </div>
 
-        <div id = "get-involved" class="flex-container">
-          <h3 class="epilogue space4 white">Get Involved</h3>
+        <div class="container-fluid p-0 text-center">
+            <div id="scheduleBoard">
+                <div class="sched-nav">
+
+                        <button class="btn sched-btn barlow" style="border-radius: 4px;" id="1">THURSDAY</button>
+                        <button class="btn sched-btn barlow" style="border-radius: 4px;" id="2">FRIDAY</button>
+                        <button class="btn sched-btn barlow" style="border-radius: 4px;" id="3">SATURDAY</button>
+                        <button class="btn sched-btn barlow" style="border-radius: 4px;" id="4">SUNDAY</button>
+
+                        <!--<a href="" target="_blank" id="add-to-calendar-icon">
+                            <img src="images/calendar.svg" alt="Add to Calendar" title="Add to Calendar" style="width: 5%; float: right;"/></a>-->
+                </div>
+                <div id="day" style="margin: 10px">
+                    Refresh the page for the most updated schedule.
+                    <br>Please note that all times are in Pacific Time (GMT+8).
+                    <br>Click on any day to see the day's schedule.
+                </div> 
+            </div>
         </div>
-        <div id="Get-Involved" class="container space5 space">
+        </section> 
+
+        <!-- Volunteer -->
+        <!--
+        <div id ="get-involved" class="flex-container space4">
+          <h3 class="epilogue space6 white"><center>Get Involved (Volunteer)</center></h3>
+        </div>
+        
+        <div class="container space">
           <div class="row">
-            <div class="col-md-4">
-              <div class="card card-7">
+            <div class="col-lg">
+              <div class="card card-7 cards">
                 <h4 class="barlow3 space">Mentor</h4>
                 <p class="barlow2">Help our hackers come out with amazing, working projects by volunteering some hours for 1:1 sessions. </p>
-                <a href="https://techtogether.typeform.com/to/wLHaUH1B" class ="barlow3">Sign Up as Mentor</a>
+                <a href="https://techtogether.typeform.com/to/wLHaUH1B" target="_blank" class="links">Sign Up as Mentor</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card card-8">
+            <div class="col-lg">
+              <div class="card card-8 cards">
                 <h4 class="barlow3 space">Workshop Host & Panelist</h4>
                 <p class="barlow2">Host a workshop or speak on a panel! If you’re a professional who wants to help share your skills, this role is for you.</p>
-                <a href="https://techtogether.typeform.com/to/RzuobzkO" class ="barlow3">Sign Up as Host or Panelist</a>
+                <a href="https://techtogether.typeform.com/to/RzuobzkO" target="_blank" class ="links">Sign Up as Host or Panelist</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card card-9">
+            <div class="col-lg">
+              <div class="card card-9 cards">
                 <h4 class="barlow3 space">Judge</h4>
-                <p class="barlow2">For professionals who wants to volunteer for 1-3 hours and enjoys looking through projects, this role is for you. </p>
-                <a href="https://techtogether.typeform.com/to/u5d55wYh" class = "barlow3">Sign Up as Judge</a>
+                <p class="barlow2">For professionals who want to volunteer for 1-3 hours and enjoy looking through projects, this role is for you.</p>
+                <a href="https://techtogether.typeform.com/to/u5d55wYh" target="_blank" class = "links">Sign Up as Judge</a>
               </div>
             </div>
           </div>
+        </div>-->
+        
 
-        </div>
+        <!-- Sponsors -->
 
-        <div id="tracks" class="flex-container">
-          <h3 class="epilogue space4 white">Tracks / Challenges</h3>
-        </div>
-
-        <!-- 
-          CAROUSEL CODE
-             NOTE: This is not the final code, as you can see, I still need to have
-             the carousel working. Please feel free to change the code or suggest
-             what other ways we can implement a carousel in bootstrap.
-        -->
-
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 col-12 slider-main">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-
-                  </ol>
-                  <div class="carousel-inner m-auto">
-                    <div class="carousel-item active">
-                      <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 barlow3">Stereotype Smasher Hack</h3><br>
-                      <p class="barlow2 text-white">
-                        We can all name stereotypes in the tech industry which have made us or others
-                        feel intimidated to participate. Create a hack that helps break the stereotypes 
-                        in this industry and make it a more inclusive and welcoming place.
-                      </p>
-                    </div>  
-
-                    <div class="carousel-item">
-                      <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 barlow3">Best Meme-Worthy Hack</h3><br>
-                      <p class="barlow2 text-white">
-                        It’s totally okay to let loose once in a while. 
-                        We want to recognize the hacker who created the most wacky hack.
-                        The more roundabout and out-right silly – the better.
-                      </p>
+        <div id="sponsors" class="flex-container space">
+         <h3 class="epilogue space6 white"><center>Sponsors</center></h3>
+          </div>
+      
+            <div class="container space">
+      
+              <div class="modal fade" id="modalMS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><a href="https://bit.ly/tt-microsoft-careers">Microsoft</a></h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
                     </div>
-
-                    <div class="carousel-item">
-                      <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 barlow3">Inclusive Hack</h3><br>
-                      <p class="barlow2 text-white">
-                        Learning to Code should not be limited by gender, race, sexuality, or 
-                        nationality. Build a solution that creates greater access to computer science
-                        for students around the globe, especially those from marginalized communities. 
-                      </p>
+                    <div class="modal-body">
+                      Microsoft enables digital transformation for the era of an intelligent cloud and an intelligent edge. 
+                      Its mission is to empower every person and every organization on the planet to achieve more.
                     </div>
-
-                  <div class="carousel-item">
-                    <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 barlow3">Most Unconventional Hack</h3><br>
-                    <p class="barlow2 text-white">
-                      You are not bound to society's expectations! Create a hack which challenges the 
-                      way we view the world or an “unconventional hack” that can use technology to 
-                      help solve social problems in a way we have never seen before.
-                    </p>
+                    <div class="modal-footer">
+                      <a type="button" class="btn btn-primary" href="https://bit.ly/tt-microsoft-careers">Visit the site</a>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="modal fade" id="modalBS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><a href="https://bit.ly/tt-balsamiq">Balsamiq</a></h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Balsamiq Wireframes is the perfect first UX design tool for anyone interested in getting into UX. It's by far the most approachable: you just drag, drop, and arrange controls on the page, and voila', 
+                      you made your first User Interface! Balsamiq is free for classroom use and very affordable for anyone else. 
+                    </div>
+                    <div class="modal-footer">
+                      <a type="button" class="btn btn-primary" href="https://bit.ly/tt-balsamiq">Visit the site</a>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="modal fade" id="modalCO" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><a href="https://bit.ly/tt-capital-one">Capital One</a></h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                      <div class="modal-body">
+                        At Capital One, we’re advancing our culture of belonging—where everyone feels seen, heard, valued, 
+                        and free to be their authentic selves.
+                      </div>
+                      <div class="modal-footer">
+                        <a type="button" class="btn btn-primary" href="https://bit.ly/tt-capital-one">Visit the site</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="modal fade" id="modalSP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"><a href="https://bit.ly/tt-spark">Spark!</a></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Housed at Boston University's Faculty of Computing & Data Sciences, Spark! is the technology incubator and 
+                        experiential learning lab for student-led computational and data-driven projects at Boston University.
+                      </div>
+                      <div class="modal-footer">
+                        <a type="button" class="btn btn-primary" href="https://bit.ly/tt-spark">Visit the site</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="modal fade" id="modalRH" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"><a href="https://bit.ly/tt-robinhood">Robinhood</a></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Robinhood was founded on a simple idea: that our financial markets should be accessible to all. 
+                        With customers at the heart of our decisions, Robinhood is lowering barriers and providing greater access to financial information. 
+                        Together, we are building products and services that help create a financial system everyone can participate in
+                      </div>
+                      <div class="modal-footer">
+                        <a type="button" class="btn btn-primary" href="https://bit.ly/tt-robinhood">Visit the site</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                <div class="carousel-item">
-                  <h3 class="text-dark bg-white mb-4 pl-3 pr-3 pt-1 pb-1 barlow3">Best Connectivity Hack</h3><br>
-                  <p class="barlow2 text-white">
-                    The pandemic has affected many aspects of our lives and one of them is our
-                    relationships with the people around us. Create a hack that helps improve 
-                    connectivity and communication between people whether it is our loved ones 
-                    or our co-workers/peers. 
+                <div class="modal fade" id="modalCX" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"><a href="https://jobs.coxenterprises.com/career-areas/technology/">Cox Automotive</a></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Some of the most innovative software used across the automotive industry is built at Cox Automotive, and we’re looking for more bright minds and ingenious thinkers.  
+                        Our engineering teams create software that allows car dealers to move inventory, plan, pivot and adjust for demand while using data to drive their businesses. <br> <br>
+                        Our tech stack is as diverse as our product offerings; we leverage C#, Python, AWS (micro services), APIs, React, Angular, Okta, .Net and many others.
+                        There are a ton of reasons why our tech teams love working here - learn more about our openings online and through the Career Fair!
+                      </div>
+                      <div class="modal-footer">
+                        <a type="button" class="btn btn-primary" href="https://jobs.coxenterprises.com/career-areas/technology/">Visit the site</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="row national-sponsor">
+
+                  <div class="col-sm">
+                    <div class="card card-10">
+                      <div class="card-body">
+                        <a href="#" data-toggle="modal" data-target="#modalMS"><center><img class="card-img-ms" src="images/logos/microsoft.png" alt="Microsoft logo"></center></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card card-11">
+                      <div class="card-body">
+                        <a href="#" data-toggle="modal" data-target="#modalBS"><center><img class="card-img-bl" src="images/logos/balsamiq.png" alt="Balsamiq logo"></center></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card card-12">
+                      <div class="card-body">
+                        <a href="#" data-toggle="modal" data-target="#modalCO"><center><img class="card-img-co" src="images/logos/capitalone.png" alt="Capital One logo"></center></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card card-15">
+                      <div class="card-body">
+                        <a href="#" data-toggle="modal" data-target="#modalRH"><center><img class="card-img-rb" src="images/logos/robinhood.png" alt="Robinhood logo"></center></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card card-13">
+                      <div class="card-body">
+                        <a href="#" data-toggle="modal" data-target="#modalSP"><center><img class="card-img-sp" src="images/logos/bostonspark.png" alt="Boston University and Spark logo"></center></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card card-14">
+                      <div class="card-body">
+                        <a href="#" data-toggle="modal" data-target="#modalCX"><center><img class="card-img-cx" src="images/logos/cox-auto.png" style="height: 100%;" alt="Cox Automotive logo"></center></a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  </div>
+                 
+                  </div>
+
+        <br><br>
+
+<!-- Tracks Carousel -->
+
+        <section style="margin-top:3%;" class="overflow-hidden py-5 space4" id="tracks">
+          <div class="mx-0 px-0">
+              <h3 class="epilogue space white space5"><center>Challenges</center></h3>
+              <div class="row gx-4 gx-lg-5">
+
+                <div class="col-md-3 d-none d-md-block text-center p-0"></div>
+
+                  <div class="col-md-6 text-center">
+                      <div class="row h-100 d-flex align-items-center justify-content-center">
+                          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                              <div class="carousel-inner m-auto">
+                                  <div class="carousel-item active">
+                                      <div class="col-md-12 h-100 w-75 m-auto px-4 d-flex flex-column justify-content-center align-items-center challenge-slide">
+                                          <img src="images/hacks/Stereotypesmasherhack.png" alt="Stereotype Smasher Hack" class="carousel-img">
+                                          <h3 barlow3>Stereotype Smasher Hack</h3>
+                                          <p class="carousel-text barlow2 white">We can all name stereotypes in the tech industry which have made us or
+                                             others feel intimidated to participate. Create a hack that helps break the stereotypes  
+                                             in this industry and make it a more inclusive place. </p> 
+                                          <br>
+                                          <p><b>Prizes: $50 Gift Card and “Diversity in Tech” Shirt</b></p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="col-md-12 h-100 w-75 m-auto px-4 d-flex flex-column justify-content-center align-items-center challenge-slide">
+                                          <img src="images/hacks/Mostmemeworthyhack.png" alt="Best Meme-Worthy Hack" class="carousel-img">
+                                          <h3 barlow3>Best Meme-Worthy Hack </h3>
+                                          <p class="carousel-text barlow2 white">It’s totally okay to let loose once in a while. 
+                                            We want to recognize the hacker with most wacky hack. The more roundabout and out-right silly, the better. 
+                                            Have a good time building a meme-worthy hack!</p>
+                                          <br>
+                                          <p><b>Prizes: Team Treehouse Subscription and $25 Amazon gift card</b></p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="col-md-12 h-100 w-75 m-auto px-4 d-flex flex-column justify-content-center align-items-center challenge-slide">
+                                          <img src="images/hacks/Mostunconventionalhack.png" alt="Most Unconventional Hack" class="carousel-img">
+                                          <h3 barlow3>Most Unconventional Hack</h3>
+                                          <p class="carousel-text barlow2 white">You are not bound to society's expectations! Create a hack which challenges 
+                                            the way we view the world or an “unconventional hack” 
+                                            that can use tech to help solve social problems in a new, unique way.</p>
+                                          <br>
+                                          <p><b>Prizes: Kindle eBook device</b></p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="col-md-12 h-100 w-75 m-auto px-4 d-flex flex-column justify-content-center align-items-center challenge-slide">
+                                        <img src="images/hacks/Inclusivehack.png" alt="Refer to Devpost" class="carousel-img">
+                                        <h3 barlow3>More Challenges</h3>
+                                        <p class="carousel-text barlow2 white">Besides our themed challenges, more of this year's challenges and their prizes can be found in our <a class="links2" href="https://techtogether-seattle-hackathon.devpost.com/">Devpost.</a> Challenges are not exclusive
+                                        to hackers only, as some awards are also given to attendees!</p>
+                                        <br>
+                                        <p><b>Prizes: Exclusive swag, $200 Amazon gift cards, and more</b></p>
+                                    </div>
+                                </div>
+
+                              <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              </button>-->
+
+                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              </a>
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 d-none d-md-block text-center p-0"></div>
+              </div>
+          </div>
+      </section>
+     
+      <!-- FAQ -->
+
+        <div id="faq" class="flex-container space4">
+          <h3 class="epilogue space6 white"><center>FAQs (Frequently Asked Questions)</center></h3>
+        </div>
+        <div id="FAQ" class="container space">
+          <div class="row">
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id="question1">
+                <a href="#question1">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q1answer" aria-expanded="false" aria-controls="question1">
+                    <h4 class="barlow3 space">Where do I submit my project?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
+                </a>
+                <div id="q1answer"class="answer">
+                  <p class="barlow2">
+                    Click on the "Submit Project" button at the top of the site to access the Devpost. Your submission must include a video 
+                    (no longer than 2 minutes) that showcases your project, a basic description of your project, and the challenge(s) 
+                    for which you want your project to be considered.
+                    There will be a Devpost page where you and your team will submit your project and view the judging criterias. At the end of the hackathon, 
+                    we will be announcing the winners on this page, and all the project submissions will be available for your viewing.
                   </p>
                 </div>
               </div>
-          
-
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-
             </div>
 
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id="question2">
+                <a href="#question2">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q2answer" aria-expanded="false" aria-controls="question2">
+                    <h4 class="barlow3 space">Where do I attend live events?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
+                </a>
+                <div id="q2answer" class="answer">
+                  <p class="barlow2">
+                    All workshops, activities, and events will be taking place online through Zoom this year. We will share meeting links via Discord. 
+                    We’ll also be sharing workshop recordings via a Google Drive folder through Discord after each event. So if you can’t make it to 
+                    one of the hackathon's workshops, we’ve got you covered! We highly recommend joining real-time for opportunities to network and Q&A.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-       </div>
-       <br></br>
-       
-        <div id="faq" class="flex-container">
-          <h3 class="epilogue space4 white">FAQ</h3>
-        </div>
-        <div id="FAQ" class="container space5 space">
+
+          <div class="row">
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id="question3">
+                <a href="#question3">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q3answer" aria-expanded="false" aria-controls="question3">
+                    <h4 class="barlow3 space">How will mentoring work? 
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
+                </a>
+                <div id="q3answer"class="answer">
+                  <p class="barlow2">
+                    Mentoring will all be done through our Discord. If you or your team want to connect with a mentor, 
+                    fill out the form on the Discord channel and then hop onto our Mentorship Zoom hangout to talk with your assigned mentor. 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id="question4">
+                <a href="#question4">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q4answer" aria-expanded="false" aria-controls="question4">
+                    <h4 class="barlow3 space">Where is my Discord invite?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
+                </a>
+                <div id="q4answer" class="answer">
+                  <p class="barlow2">
+                    After registering on <a href="https://www.eventbrite.com/e/techtogether-seattle-2021-tickets-162949306763?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=escb" target="_blank" class="links"><u>Eventbrite</u></a>, you will be emailed a link to join the Discord 1- 2 days before the hackathon. 
+                    Make sure to check your spam folder for all event emails. 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id=question5>
+                <a href="#question5">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q5answer" aria-expanded="false" aria-controls="question5">
+                    <h4 class="barlow3 space">What is the project submission deadline?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
+                </a>
+                <div id="q5answer" class="answer">
+                  <p class="barlow2">
+                    Make sure to check the event schedule to stay up to date on important hackathon deadlines and everything 
+                    you need to know about what's going on throughout the weekend! Announcements and reminders will also be 
+                    broadcasted on the Discord server in case you forget.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id=question6>
+                <a href="#question6">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q6answer" aria-expanded="false" aria-controls="question6">
+                    <h4 class="barlow3 space">Where can I access workshop recordings?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
+                </a>
+                <div id="q6answer" class="answer">
+                  <p class="barlow2">
+                    Workshop recordings will be available via a Google Drive folder and shared with participants 
+                    following the completion of the event. You can also find the link at the top of the site. 
+                    So don't worry if you happen to miss one of this weekend's workshops because we got you covered!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id="question7">
+                <a href="#question7">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q7answer" aria-expanded="false" aria-controls="question7">
+                    <h4 class="barlow3 space">How do teams work?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
+                </a>
+                <div id="q7answer" class="answer">
+                  <p class="barlow2">
+                    All teams must be between 2-4 people. While you have the option to attend alone, if you want to submit your 
+                    project you must work with at least one other person. Don’t worry if you don’t have a team—you’ll have plenty 
+                    of opportunities to find one virtually! TechTogether will be hosting a variety of team formation activities 
+                    throughout the first day, and we will also have a Discord channel dedicated to team formation leading up to 
+                    and during the event.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id="question8">
+                <a href="#question8">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q8answer" aria-expanded="false" aria-controls="question8">
+                    <h4 class="barlow3 space">Will be there swag and prizes?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
+                </a>
+                <div id="q8answer" class="answer">
+                  <p class="barlow2">
+                    We’ll be giving out prizes throughout the hackathon, especially for winners of the various tracks. 
+                    Outside of it, we’ll also be hosting raffles throughout the workshops.
+                    Attendee swag this year will be swapped for local charity donations instead.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
 
             <div class="row">
-              <div class="col-sm-6 accordion">
-                <div class="card accordion-item" id="question1">
-                  <a class="accordion-link" href="#question1">
-                    <h4 class="barlow3 space">What is a hackathon?
-                      <i class="fas fa-caret-up black"></i>
-                      <i class="fas fa-caret-down black"></i></h4>
+              <div class="col-sm accordion">
+                <div class="card accordion-item" id="question9">
+                  <a href="#question9">
+                    <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q9answer" aria-expanded="false" aria-controls="question9">
+                      <h4 class="barlow3 space">What is TechTogether Seattle?
+                        <i class="fas fa-caret-down black"></i>
+                        <i class="fas fa-caret-up black"></i></h4>
+                    </button>
                   </a>
-                  <div class="answer">
+                  <div id="q9answer" class="answer">
                     <p class="barlow2">
-                      A hackathon is an event where individuals or teams work together to build a technology-based solution 
-                      to a problem in a short period of time (24-36 hours). With the help of workshops and mentors, you can 
-                      build an application, a website, a robot — there are endless possibilities! 
+                      At the core, TechTogether Seattle is a hackathon, where individuals or teams work together to build a technology-based solution 
+                      to a problem in a short period of time (24-36 hours), with the support of mentors and our network. <b>Attendees can also join for our other events offered, such as the career fair, workshops, and panels.</b>
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-6 accordion">
-                <div class="card accordion-item" id="question2">
-                  <a class="accordion-link" href="#question2">
-                    <h4 class="barlow3 space">Who is eligible to participate?
-                      <i class="fas fa-caret-up black"></i>
-                      <i class="fas fa-caret-down black"></i></h4>
+              <div class="col-sm accordion">
+                <div class="card accordion-item" id="question10">
+                  <a href="#question10">
+                    <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q10answer" aria-expanded="false" aria-controls="question10">
+                      <h4 class="barlow3 space">Who is eligible to participate?
+                        <i class="fas fa-caret-down black"></i>
+                        <i class="fas fa-caret-up black"></i></h4>
+                    </button>
                   </a>
-                  <div class="answer">
+                  <div id="q10answer" class="answer">
                     <h5 class="barlow3">Hackers</h5>
                     <p class="barlow2">
-                      Our event is open to learners of ALL backgrounds with ANY level of experience who identify themselves as 
-                      women+ individuals: woman, non-binary, or other under-represented genders. Attendees can come from any level 
-                      of study at traditional (highschool, university, post-graduate), or non-traditional institutions (coding bootcamps, 
-                      homeschool, online, etc) but are not limited to those options.
+                      We are committed to providing people of marginalized genders with opportunities to explore the tech industry in an inspiring, encouraging, and energizing environment.
+                      At TechTogether Seattle, we give each hackers regardless of age or experience level the unique opportunity to gain and develop their skill-sets, build a professional network, and be part of this empowering community.
                     </p>
                     <h5 class="barlow3">Non-Hackers (Mentors, Judges, etc.)</h5>
                     <p class="barlow2">
-                      Anyone not included above is invited to get involved as a mentor, judge, workshop host, or panelist (see <a href="#get-involved" class="barlow3"><u>Get Involved</u></a> for roles and links) 
-                      or support us as a <a href="#sponsors" class="barlow3"><u>sponsor</u></a>! This is a great opportunity to expand your network and increase your leadership skills!
+                      Other ways to get involved include joining as a mentor, judge, workshop host, or panelist (see <a href="#get-involved" class="links"><u>Get Involved</u></a> for roles and links) 
+                      or support us as a <a href="#sponsors" class="links"><u>sponsor</u></a>! This is a great opportunity to expand your network, grow, and to share with our budding community!
                     </p>
                   </div>
                 </div>
@@ -312,31 +692,35 @@
             </div>
 
           <div class="row">
-            <div class="col-sm-6 accordion">
-              <div class="card accordion-item" id="question3">
-                <a class="accordion-link" href="#question3">
-                  <h4 class="barlow3 space">What if it's my first hackathon?
-                    <i class="fas fa-caret-up black"></i>
-                    <i class="fas fa-caret-down black"></i></h4>
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id="question11">
+                <a href="#question11">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q11answer" aria-expanded="false" aria-controls="question11">
+                    <h4 class="barlow3 space">What if it's my first hackathon?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
                 </a>
-                <div class="answer">
+                <div id="q11answer" class="answer">
                   <p class="barlow2">
                     No worries! We’ve prepared an event dedicated to first-time hackers and an online resource kit to get you fully prepared 
                     and ready to hack during the weekend. Our mentors are also available to help guide you through your projects during the hackathon. 
-                    Additionally, feel free to <a href="#contact" class="barlow3"><u>reach out</u></a> if you have access needs or questions.
+                    Additionally, feel free to <a href="#contact" class="links"><u>reach out</u></a> if you have access needs or questions.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-6 accordion">
-              <div class="card accordion-item" id="question4">
-                <a class="accordion-link" href="#question4">
-                  <h4 class="barlow3 space">Is there a cost to attend?
-                    <i class="fas fa-caret-up black"></i>
-                    <i class="fas fa-caret-down black"></i></h4>
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id="question12">
+                <a href="#question12">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q12answer" aria-expanded="false" aria-controls="question12">
+                    <h4 class="barlow3 space">Is there a cost to attend?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
                 </a>
-                <div class="answer">
+                <div id="q12answer" class="answer">
                   <p class="barlow2">
                     TechTogether Seattle Hackathon is free to attend!
                   </p>
@@ -346,30 +730,16 @@
           </div>
 
           <div class="row">
-            <div class="col-sm-6 accordion">
-              <div class="card accordion-item" id="question5">
-                <a class="accordion-link" href="#question5">
-                  <h4 class="barlow3 space">How do teams work?
-                    <i class="fas fa-caret-up black"></i>
-                    <i class="fas fa-caret-down black"></i></h4>
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id="question13">
+                <a href="#question13">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q13answer" aria-expanded="false" aria-controls="question13">
+                    <h4 class="barlow3 space">What if I don't like coding?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
                 </a>
-                <div class="answer">
-                  <p class="barlow2">
-                    Teams can consist up to 4 hackers. You can apply with or without a team, 
-                and there will be team-forming event(s) prior to our hackathon to meet others and form your team.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 accordion">
-              <div class="card accordion-item" id="question6">
-                <a class="accordion-link" href="#question6">
-                  <h4 class="barlow3 space">What if I don't like coding?
-                    <i class="fas fa-caret-up black"></i>
-                    <i class="fas fa-caret-down black"></i></h4>
-                </a>
-                <div class="answer">
+                <div id="q13answer" class="answer">
                   <p class="barlow2">
                     That's completely ok! Hackers have many roles besides coding including project management and design! Your team will need 
                     people to help ideate, design, prototype, and pitch your project in order to bring it to life, so your unique skills will 
@@ -378,129 +748,53 @@
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-sm-6 accordion">
-              <div class="card accordion-item" id="question7">
-                <a class="accordion-link" href="#question7">
-                  <h4 class="barlow3 space">Where do I submit my project?
-                    <i class="fas fa-caret-up black"></i>
-                    <i class="fas fa-caret-down black"></i></h4>
+            <div class="col-sm accordion">
+              <div class="card accordion-item" id="question14">
+                <a href="#question14">
+                  <button class="btn accordion-link" type="button" data-toggle="collapse" data-target="#q14answer" aria-expanded="false" aria-controls="question14">
+                    <h4 class="barlow3 space">What if I have access needs?
+                      <i class="fas fa-caret-down black"></i>
+                      <i class="fas fa-caret-up black"></i></h4>
+                  </button>
                 </a>
-                <div class="answer">
-                  <p class="barlow2">
-                    There will be a Devpost page where you and your team will submit your project and view the judging criterias. At the end of the hackathon, 
-                    we will be announcing the winners on this page as well! (You can also view the other projects here.)
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 accordion">
-              <div class="card accordion-item" id="question8">
-                <a class="accordion-link" href="#question8">
-                  <h4 class="barlow3 space">Will be there swag and prizes?
-                    <i class="fas fa-caret-up black"></i>
-                    <i class="fas fa-caret-down black"></i></h4>
-                </a>
-                <div class="answer">
-                  <p class="barlow2">
-                    We’ll be giving out prizes throughout the hackathon, especially for winners of the various tracks. 
-                    Outside of it, we’ll also be hosting raffles throughout the workshops.
-                    Attendee swag this year will be swapped for local charity donations instead.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-6 accordion">
-              <div class="card accordion-item" id="question9">
-                <a class="accordion-link" href="#question9">
-                  <h4 class="barlow3 space">How will mentoring work? 
-                    <i class="fas fa-caret-up black"></i>
-                    <i class="fas fa-caret-down black"></i></h4>
-                </a>
-                <div class="answer">
-                  <p class="barlow2">
-                    Mentoring will all be done through our Discord. If you or your team want to connect with a mentor, 
-                    fill out the form on the Discord channel and then hop onto our Mentorship Zoom hangout to talk with your assigned mentor. 
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 accordion">
-              <div class="card accordion-item" id="question10">
-                <a class="accordion-link" href="#question10">
-                  <h4 class="barlow3 space">Where do I attend workshops, etc?
-                    <i class="fas fa-caret-up black"></i>
-                    <i class="fas fa-caret-down black"></i></h4>
-                </a>
-                <div class="answer">
-                  <p class="barlow2">
-                    All workshops, activities, and events will be taking place online through Zoom this year. We will share meeting links via Discord. 
-                    We’ll also be sharing workshop recordings via a Google Drive folder through Discord after each event. So if you can’t make it to 
-                    one of the hackathon's workshops, we’ve got you covered! Although we highly recommend joining real-time, if possible, for opportunities to network and Q&A.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-6 accordion">
-              <div class="card accordion-item" id="question11">
-                <a class="accordion-link" href="#question11">
-                  <h4 class="barlow3 space">Where is my Discord invite?
-                    <i class="fas fa-caret-up black"></i>
-                    <i class="fas fa-caret-down black"></i></h4>
-                </a>
-                <div class="answer">
-                  <p class="barlow2">
-                    After registering on <a href="https://www.eventbrite.com/e/techtogether-seattle-2021-tickets-162949306763?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=escb" class="barlow3"><u>Eventbrite</u></a>, you will be emailed a link to join the Discord 1- 2 days before the hackathon. 
-                    Make sure to check your spam folder for all event emails. 
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 accordion">
-              <div class="card accordion-item" id="question12">
-                <a class="accordion-link" href="#question12">
-                  <h4 class="barlow3 space">What if I have access needs?
-                    <i class="fas fa-caret-up black"></i>
-                    <i class="fas fa-caret-down black"></i></h4>
-                </a>
-                <div class="answer">
+                <div id="q14answer"class="answer">
                   <p class="barlow2">
                     TechTogether Seattle was built with inclusion in mind, and although we have aimed to create that environment in advance, 
                     we understand that a wide range access needs exist and lack of support may prevent you from fully engaging in the event. 
-                    Please allow us to help you the best we can by contacting us in advance through this <a href="#contact" class="barlow3"><u>link</u></a>. 
+                    Please allow us to help you the best we can by contacting us in advance through this <a href="#contact" class="links"><u>link</u></a>. 
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-        </>
-
-        <div id="sponsors" class="flex-container">
-          <h3 class="epilogue space4 white">National Sponsors</h3>
+        <br><br>
         </div>
 
-        <div id="sponsors" class="flex-container">
-          <h3 class="epilogue space4 white">Local Sponsors</h3>
-        </div>
+        <!-- Footer -->
 
+        <footer id="contact" class="py-4 bg-dark flex-shrink-0 space">
+          <div class="container text-right bold items black made">
+            <p class="epilogue white">reach out to us <i class="fas fa-heart animate__animated animate__heartBeat animate__infinite" alt="love"></i></p>
+            <a href="https://www.linkedin.com/company/techtogether-seattle/"><i class="fab fa-linkedin white bigger"></i></a>
+            <a href="https://instagram.com/techtogetherseattle"><i class="fab fa-instagram white bigger"></i></a>
+            <a href="https://twitter.com/techtogethersea"><i class="fab fa-twitter white bigger"></i></a>
+            <a href="https://techtogether-seattle-hackathon.devpost.com"><i class="fab fa-dev white bigger"></i></a>
+            <a href="mailto:info.seattle@techtogether.io"><i class="far fa-envelope-open white bigger"></i></a>
+          </div>
+        </footer>
 
+        <!--<button class="scrollToTopBtn">☝️</button>-->
 
-</body>
-<!--javascript--> 
-<script src="script.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+
+   <!--javascript--> 
+    <script src="schedule.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
 </html>
